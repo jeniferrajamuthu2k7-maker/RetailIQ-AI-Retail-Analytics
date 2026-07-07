@@ -1,0 +1,991 @@
+﻿Bill_ID,Date,Product_Name,Category,Brand,Quantity,Selling_Price,Cost_Price,Payment_Mode,Revenue,Profit,Month,Day
+B0001,2026-02-14 00:00:00,Rice,Grocery,Aashirvaad,11,60,50,CASH,660,110,February,Saturday
+B0002,2026-01-31 00:00:00,Detergent,Household,Surf Excel,2,220,190,UPI,440,60,January,Saturday
+B0003,2026-06-11 00:00:00,Chips,Snacks,Lays,8,20,12,UPI,160,64,June,Thursday
+B0004,2026-06-02 00:00:00,Chips,Snacks,Lays,13,20,12,CASH,260,104,June,Tuesday
+B0005,2026-01-05 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,January,Monday
+B0006,2026-03-23 00:00:00,Oil,Grocery,Fortune,2,150,130,UPI,300,40,March,Monday
+B0007,2026-03-28 00:00:00,Oil,Grocery,Fortune,13,150,130,CASH,1950,260,March,Saturday
+B0008,2026-01-04 00:00:00,Oil,Grocery,Fortune,10,150,130,UPI,1500,200,January,Sunday
+B0009,2026-01-31 00:00:00,Milk,Dairy,Aavin,13,30,25,UPI,390,65,January,Saturday
+B0010,2026-03-21 00:00:00,Rice,Grocery,Aashirvaad,4,60,50,UPI,240,40,March,Saturday
+B0011,2026-01-03 00:00:00,Rice,Grocery,Aashirvaad,14,60,50,CASH,840,140,January,Saturday
+B0012,2026-01-03 00:00:00,Milk,Unknown,Aavin,9,30,25,CASH,270,45,January,Saturday
+B0013,2026-06-16 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,UPI,300,50,June,Tuesday
+B0014,2026-05-17 00:00:00,Chips ,Snacks,Lays,9,20,12,CARD,180,72,May,Sunday
+B0015,2026-06-04 00:00:00,Soap,Personal Care,Lux,5,40,30,UPI,200,50,June,Thursday
+B0016,2026-04-26 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,150,UPI,1620,270,April,Sunday
+B0017,2026-05-14 00:00:00,Oil ,Grocery,Fortune,5,150,130,UPI,750,100,May,Thursday
+B0018,2026-01-25 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,January,Sunday
+B0019,2026-05-11 00:00:00,Detergent ,Household,Surf Excel,7,220,190,CASH,1540,210,May,Monday
+B0020,2026-05-11 00:00:00,Oil,Grocery,Fortune,15,150,130,UPI,2250,300,May,Monday
+B0021,2026-01-06 00:00:00,Oil,Grocery,Fortune,14,150,130,CASH,2100,280,January,Tuesday
+B0022,2026-01-22 00:00:00,Detergent,Household,Surf Excel,3,220,190,UPI,660,90,January,Thursday
+B0023,2026-05-16 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,UPI,720,120,May,Saturday
+B0024,2026-02-16 00:00:00,Sugar,Grocery,Madhur,3,55,45,UPI,165,30,February,Monday
+B0025,2026-01-01 00:00:00,Detergent,Household,Unknown,11,220,190,CASH,2420,330,January,Thursday
+B0026,2026-04-03 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,UPI,2340,390,April,Friday
+B0027,2026-05-29 00:00:00,Soap,Personal Care,Lux,3,40,30,UPI,120,30,May,Friday
+B0028,2026-06-14 00:00:00,Sugar,Grocery,Madhur,13,55,45,CASH,715,130,June,Sunday
+B0029,2026-01-28 00:00:00,Chips,Snacks,Unknown,2,20,12,CASH,40,16,January,Wednesday
+B0030,2026-01-03 00:00:00,Soap,Personal Care,Lux,2,40,30,CASH,80,20,January,Saturday
+B0031,2026-05-16 00:00:00,Milk,Dairy,Aavin,6,30,25,UPI,180,30,May,Saturday
+B0032,2026-03-31 00:00:00,Sugar,Grocery,Unknown,8,55,45,UPI,440,80,March,Tuesday
+B0033,2026-06-16 00:00:00,Detergent,Household,Surf Excel,1,220,190,CASH,220,30,June,Tuesday
+B0034,2026-05-21 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,UPI,360,60,May,Thursday
+B0035,2026-05-28 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,CASH,375,105,May,Thursday
+B0036,2026-05-19 00:00:00,Chips,Snacks,Unknown,12,20,12,CASH,240,96,May,Tuesday
+B0037,2026-03-12 00:00:00,Detergent,Household,Surf Excel,4,220,190,CASH,880,120,March,Thursday
+B0038,2026-05-15 00:00:00,Biscuits,Snacks,Britannia,7,30,20,UPI,210,70,May,Friday
+B0039,2026-03-17 00:00:00,Detergent ,Household,Surf Excel,2,220,190,UPI,440,60,March,Tuesday
+B0040,2026-03-04 00:00:00,Milk,Dairy,Aavin,14,30,25,UPI,420,70,March,Wednesday
+B0041,2026-02-02 00:00:00,Chips,Snacks,Lays,3,20,12,UPI,60,24,February,Monday
+B0042,2026-02-07 00:00:00,Rice,Grocery,Aashirvaad,13,40,50,CASH,520,-130,February,Saturday
+B0043,2026-04-16 00:00:00,Tea Powder,Beverages,Tata Tea,12,180,150,CASH,2160,360,April,Thursday
+B0044,2026-05-05 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,May,Tuesday
+B0045,2026-06-06 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,June,Saturday
+B0046,2026-01-03 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CASH,450,150,January,Saturday
+B0047,2026-04-15 00:00:00,Biscuits,Snacks,Britannia,7,30,20,CASH,210,70,April,Wednesday
+B0048,2026-04-24 00:00:00,Unknown Product,Household,Surf Excel,11,220,190,CARD,2420,330,April,Friday
+B0049,2026-05-13 00:00:00,Detergent ,Household,Surf Excel,5,220,190,CARD,1100,150,May,Wednesday
+B0050,2026-03-08 00:00:00,Sugar,Grocery,Madhur,10,55,45,CARD,550,100,March,Sunday
+B0051,2026-01-01 00:00:00,Chips,Snacks,Lays,13,20,12,CASH,260,104,January,Thursday
+B0052,2026-04-28 00:00:00,Detergent,Household,Surf Excel,6,220,190,CARD,1320,180,April,Tuesday
+B0053,2026-05-14 00:00:00,Tea Powder,Beverages,Tata Tea,3,180,150,CARD,540,90,May,Thursday
+B0054,2026-02-10 00:00:00,Chocolate,Snacks,Cadbury,5,25,18,UPI,125,35,February,Tuesday
+B0055,2026-02-26 00:00:00,Chocolate,Snacks,Cadbury,10,25,18,UPI,250,70,February,Thursday
+B0056,2026-02-25 00:00:00,Tea Powder,Beverages,Tata Tea,4,180,150,CASH,720,120,February,Wednesday
+B0057,2026-06-12 00:00:00,Tea Powder,Beverages,Unknown,14,180,150,CARD,2520,420,June,Friday
+B0058,2026-06-15 00:00:00,Chips ,Snacks,Unknown,3,20,12,CASH,60,24,June,Monday
+B0059,2026-06-15 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,UPI,25,7,June,Monday
+B0060,2026-06-08 00:00:00,Milk ,Dairy,Aavin,2,30,25,UPI,60,10,June,Monday
+B0061,2026-03-15 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CASH,450,150,March,Sunday
+B0062,2026-06-15 00:00:00,Detergent,Household,Surf Excel,8,220,190,CASH,1760,240,June,Monday
+B0063,2026-04-11 00:00:00,Milk,Dairy,Aavin,14,30,25,CASH,420,70,April,Saturday
+B0064,2026-02-10 00:00:00,Detergent ,Household,Surf Excel,4,220,190,UPI,880,120,February,Tuesday
+B0065,2026-05-07 00:00:00,Chips,Snacks,Lays,1,20,12,UPI,20,8,May,Thursday
+B0066,2026-06-11 00:00:00,Detergent,Household,Surf Excel,6,220,190,UPI,1320,180,June,Thursday
+B0067,2026-05-31 00:00:00,Chips,Snacks,Lays,5,20,12,UPI,100,40,May,Sunday
+B0068,2026-03-27 00:00:00,Detergent,Household,Surf Excel,9,220,190,UPI,1980,270,March,Friday
+B0069,2026-06-08 00:00:00,Oil ,Grocery,Fortune,7,150,130,CASH,1050,140,June,Monday
+B0070,2026-04-01 00:00:00,Detergent ,Household,Surf Excel,1,220,190,CASH,220,30,April,Wednesday
+B0071,2026-05-07 00:00:00,Milk,Dairy,Aavin,15,30,25,CASH,450,75,May,Thursday
+B0072,2026-01-27 00:00:00,Sugar ,Grocery,Madhur,1,55,45,CASH,55,10,January,Tuesday
+B0073,2026-04-27 00:00:00,Biscuits,Snacks,Britannia,13,30,20,CASH,390,130,April,Monday
+B0074,2026-02-08 00:00:00,Sugar,Grocery,Madhur,7,55,45,CASH,385,70,February,Sunday
+B0075,2026-02-02 00:00:00,Oil ,Grocery,Fortune,11,150,130,CARD,1650,220,February,Monday
+B0076,2026-01-01 00:00:00,Biscuits,Snacks,Britannia,8,30,20,UPI,240,80,January,Thursday
+B0077,2026-05-11 00:00:00,Chocolate,Snacks,Cadbury,6,25,18,CASH,150,42,May,Monday
+B0078,2026-05-25 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,May,Monday
+B0079,2026-04-13 00:00:00,Sugar,Grocery,Madhur,12,55,45,UPI,660,120,April,Monday
+B0080,2026-02-01 00:00:00,Biscuits ,Snacks,Britannia,11,30,20,CASH,330,110,February,Sunday
+B0081,2026-03-12 00:00:00,Tea Powder ,Beverages,Tata Tea,14,180,150,CASH,2520,420,March,Thursday
+B0082,2026-03-12 00:00:00,Tea Powder ,Beverages,Tata Tea,4,180,150,CASH,720,120,March,Thursday
+B0083,2026-06-26 00:00:00,Soap ,Personal Care,Lux,14,40,30,CASH,560,140,June,Friday
+B0084,2026-06-14 00:00:00,Chips,Snacks,Unknown,3,20,12,CARD,60,24,June,Sunday
+B0085,2026-01-15 00:00:00,Milk,Dairy,Aavin,11,30,25,UPI,330,55,January,Thursday
+B0086,2026-05-07 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,CASH,600,100,May,Thursday
+B0087,2026-02-10 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,UPI,600,100,February,Tuesday
+B0088,2026-05-09 00:00:00,Soap,Personal Care,Lux,8,40,30,CASH,320,80,May,Saturday
+B0089,2026-03-13 00:00:00,Sugar ,Grocery,Madhur,15,55,45,CASH,825,150,March,Friday
+B0090,2026-04-28 00:00:00,Chips,Snacks,Lays,7,20,12,CASH,140,56,April,Tuesday
+B0091,2026-04-03 00:00:00,Chocolate,Snacks,Cadbury,9,25,18,UPI,225,63,April,Friday
+B0092,2026-02-10 00:00:00,Tea Powder ,Beverages,Tata Tea,5,180,150,CASH,900,150,February,Tuesday
+B0093,2026-01-23 00:00:00,Chips,Snacks,Lays,8,20,12,UPI,160,64,January,Friday
+B0094,2026-02-26 00:00:00,Oil,Grocery,Fortune,1,150,130,CASH,150,20,February,Thursday
+B0095,2026-05-06 00:00:00,Chips,Snacks,Lays,7,20,12,UPI,140,56,May,Wednesday
+B0096,2026-05-03 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,CASH,50,14,May,Sunday
+B0097,2026-04-07 00:00:00,Milk ,Dairy,Aavin,7,30,25,UPI,210,35,April,Tuesday
+B0098,2026-03-02 00:00:00,Chocolate,Snacks,Cadbury,5,25,18,UPI,125,35,March,Monday
+B0099,2026-06-14 00:00:00,Soap,Personal Care,Lux,10,40,30,CARD,400,100,June,Sunday
+B0100,2026-04-10 00:00:00,Chocolate,Snacks,Cadbury,11,25,18,CASH,275,77,April,Friday
+B0101,2026-05-21 00:00:00,Detergent,Household,Surf Excel,7,220,190,CASH,1540,210,May,Thursday
+B0102,2026-06-20 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CASH,1080,180,June,Saturday
+B0103,2026-05-15 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CASH,90,30,May,Friday
+B0104,2026-03-23 00:00:00,Biscuits,Snacks,Britannia,4,30,20,CASH,120,40,March,Monday
+B0105,2026-05-29 00:00:00,Chocolate,Snacks,Cadbury,11,25,18,UPI,275,77,May,Friday
+B0106,2026-04-20 00:00:00,Soap,Personal Care,Lux,6,40,30,CASH,240,60,April,Monday
+B0107,2026-04-13 00:00:00,Sugar ,Grocery,Madhur,11,55,45,CASH,605,110,April,Monday
+B0108,2026-06-20 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,UPI,120,20,June,Saturday
+B0109,2026-06-20 00:00:00,Biscuits,Snacks,Britannia,13,30,20,UPI,390,130,June,Saturday
+B0110,2026-01-05 00:00:00,Sugar,Grocery,Madhur,7,55,45,CASH,385,70,January,Monday
+B0111,2026-02-08 00:00:00,Soap,Personal Care,Lux,1,40,30,CASH,40,10,February,Sunday
+B0112,2026-01-27 00:00:00,Sugar,Grocery,Unknown,10,55,45,UPI,550,100,January,Tuesday
+B0113,2026-06-12 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,CASH,175,49,June,Friday
+B0114,2026-04-19 00:00:00,Rice,Grocery,Unknown,7,60,50,CARD,420,70,April,Sunday
+B0115,2026-03-03 00:00:00,Detergent ,Household,Surf Excel,10,220,190,CASH,2200,300,March,Tuesday
+B0116,2026-04-13 00:00:00,Chips,Snacks,Lays,11,20,12,CASH,220,88,April,Monday
+B0117,2026-05-06 00:00:00,Detergent,Household,Surf Excel,11,220,190,CASH,2420,330,May,Wednesday
+B0118,2026-01-14 00:00:00,Milk,Dairy,Aavin,14,30,25,CARD,420,70,January,Wednesday
+B0119,2026-05-14 00:00:00,Rice,Grocery,Aashirvaad,14,60,50,UPI,840,140,May,Thursday
+B0120,2026-04-28 00:00:00,Oil,Unknown,Fortune,13,150,130,CASH,1950,260,April,Tuesday
+B0121,2026-01-13 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CASH,1080,180,January,Tuesday
+B0122,2026-01-31 00:00:00,Soap,Personal Care,Lux,7,40,45,CASH,280,-35,January,Saturday
+B0123,2026-06-13 00:00:00,Oil,Grocery,Fortune,11,150,130,CASH,1650,220,June,Saturday
+B0124,2026-01-20 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,CASH,25,7,January,Tuesday
+B0125,2026-03-17 00:00:00,Sugar,Grocery,Madhur,1,55,45,CARD,55,10,March,Tuesday
+B0126,2026-01-08 00:00:00,Rice,Grocery,Unknown,1,60,50,CASH,60,10,January,Thursday
+B0127,2026-01-28 00:00:00,Biscuits,Snacks,Britannia,11,30,20,CASH,330,110,January,Wednesday
+B0128,2026-05-31 00:00:00,Chocolate,Snacks,Cadbury,5,25,18,CASH,125,35,May,Sunday
+B0129,2026-03-24 00:00:00,Detergent,Household,Unknown,14,220,190,UPI,3080,420,March,Tuesday
+B0130,2026-04-06 00:00:00,Tea Powder,Beverages,Tata Tea,12,180,150,CASH,2160,360,April,Monday
+B0131,2026-04-28 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CASH,360,60,April,Tuesday
+B0132,2026-02-22 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CASH,720,120,February,Sunday
+B0133,2026-06-19 00:00:00,Sugar,Grocery,Madhur,3,55,45,UPI,165,30,June,Friday
+B0134,2026-05-14 00:00:00,Tea Powder,Beverages,Tata Tea,1,180,150,UPI,180,30,May,Thursday
+B0135,2026-03-18 00:00:00,Oil,Grocery,Fortune,14,150,45,CASH,2100,1470,March,Wednesday
+B0136,2026-01-22 00:00:00,Chips,Snacks,Lays,7,20,12,CARD,140,56,January,Thursday
+B0137,2026-01-25 00:00:00,Biscuits,Snacks,Britannia,2,30,20,CASH,60,20,January,Sunday
+B0138,2026-05-22 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,UPI,2520,420,May,Friday
+B0139,2026-04-21 00:00:00,Sugar ,Grocery,Madhur,5,55,45,UPI,275,50,April,Tuesday
+B0140,2026-01-03 00:00:00,Detergent,Household,Surf Excel,2,220,190,UPI,440,60,January,Saturday
+B0141,2026-01-17 00:00:00,Chips,Snacks,Lays,12,20,12,CASH,240,96,January,Saturday
+B0142,2026-05-12 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CASH,360,60,May,Tuesday
+B0143,2026-06-05 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CASH,2520,420,June,Friday
+B0144,2026-02-10 00:00:00,Chocolate,Snacks,Cadbury,10,40,18,UPI,400,220,February,Tuesday
+B0145,2026-05-14 00:00:00,Rice ,Grocery,Aashirvaad,5,60,50,CARD,300,50,May,Thursday
+B0146,2026-04-02 00:00:00,Chocolate,Snacks,Cadbury,3,25,18,CASH,75,21,April,Thursday
+B0147,2026-02-08 00:00:00,Biscuits,Snacks,Britannia,11,30,20,UPI,330,110,February,Sunday
+B0148,2026-02-19 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,CASH,50,14,February,Thursday
+B0149,2026-03-06 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,UPI,600,100,March,Friday
+B0150,2026-04-07 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CASH,1080,180,April,Tuesday
+B0151,2026-01-01 00:00:00,Detergent,Household,Surf Excel,1,220,190,CARD,220,30,January,Thursday
+B0152,2026-05-27 00:00:00,Chips ,Snacks,Lays,13,20,12,CARD,260,104,May,Wednesday
+B0153,2026-02-19 00:00:00,Chocolate,Snacks,Cadbury,9,25,18,UPI,225,63,February,Thursday
+B0154,2026-05-31 00:00:00,Soap,Personal Care,Lux,3,40,30,UPI,120,30,May,Sunday
+B0155,2026-02-12 00:00:00,Milk,Dairy,Aavin,15,30,25,CASH,450,75,February,Thursday
+B0156,2026-06-24 00:00:00,Tea Powder ,Beverages,Tata Tea,4,180,150,UPI,720,120,June,Wednesday
+B0157,2026-06-14 00:00:00,Biscuits,Snacks,Britannia,12,30,20,CASH,360,120,June,Sunday
+B0158,2026-02-19 00:00:00,Milk,Dairy,Aavin,5,30,25,CASH,150,25,February,Thursday
+B0159,2026-01-17 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,CASH,360,60,January,Saturday
+B0160,2026-01-09 00:00:00,Biscuits,Snacks,Britannia,6,30,20,UPI,180,60,January,Friday
+B0161,2026-05-23 00:00:00,Milk,Dairy,Unknown,15,30,25,CARD,450,75,May,Saturday
+B0162,2026-01-03 00:00:00,Soap ,Personal Care,Lux,4,40,30,UPI,160,40,January,Saturday
+B0163,2026-04-29 00:00:00,Biscuits,Snacks,Britannia,13,30,20,CASH,390,130,April,Wednesday
+B0164,2026-03-28 00:00:00,Chips,Snacks,Lays,9,20,12,UPI,180,72,March,Saturday
+B0165,2026-05-07 00:00:00,Chips,Snacks,Lays,15,20,12,UPI,300,120,May,Thursday
+B0166,2026-03-17 00:00:00,Milk ,Dairy,Aavin,3,30,25,CASH,90,15,March,Tuesday
+B0167,2026-01-11 00:00:00,Soap,Personal Care,Lux,4,40,30,CASH,160,40,January,Sunday
+B0168,2026-03-21 00:00:00,Biscuits,Snacks,Britannia,5,30,20,CASH,150,50,March,Saturday
+B0169,2026-02-09 00:00:00,Milk,Dairy,Unknown,7,30,25,CASH,210,35,February,Monday
+B0170,2026-05-25 00:00:00,Oil ,Grocery,Fortune,12,150,130,CASH,1800,240,May,Monday
+B0171,2026-01-04 00:00:00,Sugar,Grocery,Madhur,7,55,45,UPI,385,70,January,Sunday
+B0172,2026-05-31 00:00:00,Oil,Grocery,Fortune,8,150,130,UPI,1200,160,May,Sunday
+B0173,2026-04-20 00:00:00,Soap,Personal Care,Lux,13,40,30,UPI,520,130,April,Monday
+B0174,2026-03-24 00:00:00,Chips,Snacks,Lays,8,20,12,CARD,160,64,March,Tuesday
+B0175,2026-03-24 00:00:00,Milk,Dairy,Aavin,8,30,25,CASH,240,40,March,Tuesday
+B0176,2026-04-26 00:00:00,Sugar,Grocery,Madhur,4,55,45,CASH,220,40,April,Sunday
+B0177,2026-05-12 00:00:00,Milk,Dairy,Aavin,7,30,25,CASH,210,35,May,Tuesday
+B0178,2026-06-29 00:00:00,Milk,Dairy,Aavin,1,30,25,UPI,30,5,June,Monday
+B0179,2026-02-27 00:00:00,Detergent,Household,Surf Excel,5,220,190,CASH,1100,150,February,Friday
+B0180,2026-05-20 00:00:00,Chocolate ,Snacks,Unknown,13,25,18,CASH,325,91,May,Wednesday
+B0181,2026-05-23 00:00:00,Chips,Snacks,Lays,15,20,12,CASH,300,120,May,Saturday
+B0182,2026-04-19 00:00:00,Soap,Personal Care,Lux,1,40,30,CASH,40,10,April,Sunday
+B0183,2026-02-21 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,UPI,360,60,February,Saturday
+B0184,2026-03-11 00:00:00,Sugar,Grocery,Madhur,2,55,45,UPI,110,20,March,Wednesday
+B0185,2026-02-22 00:00:00,Soap,Personal Care,Lux,9,40,30,UPI,360,90,February,Sunday
+B0186,2026-04-12 00:00:00,Soap,Personal Care,Lux,8,40,30,UPI,320,80,April,Sunday
+B0187,2026-03-19 00:00:00,Sugar ,Grocery,Madhur,5,55,45,UPI,275,50,March,Thursday
+B0188,2026-04-19 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,April,Sunday
+B0189,2026-03-09 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,UPI,200,56,March,Monday
+B0190,2026-02-18 00:00:00,Oil,Grocery,Fortune,10,150,130,CASH,1500,200,February,Wednesday
+B0191,2026-03-12 00:00:00,Biscuits,Snacks,Britannia,7,30,20,CARD,210,70,March,Thursday
+B0192,2026-03-12 00:00:00,Rice,Grocery,Unknown,15,60,50,UPI,900,150,March,Thursday
+B0193,2026-02-28 00:00:00,Chips,Snacks,Lays,13,20,12,CARD,260,104,February,Saturday
+B0194,2026-06-14 00:00:00,Detergent,Household,Surf Excel,5,220,190,CASH,1100,150,June,Sunday
+B0195,2026-05-15 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,May,Friday
+B0196,2026-02-07 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,February,Saturday
+B0197,2026-01-08 00:00:00,Chips ,Snacks,Lays,12,20,12,UPI,240,96,January,Thursday
+B0198,2026-05-10 00:00:00,Tea Powder ,Beverages,Tata Tea,7,180,150,UPI,1260,210,May,Sunday
+B0199,2026-01-26 00:00:00,Milk,Dairy,Aavin,11,30,25,CARD,330,55,January,Monday
+B0200,2026-03-03 00:00:00,Detergent,Household,Surf Excel,10,220,190,CARD,2200,300,March,Tuesday
+B0201,2026-04-09 00:00:00,Detergent,Household,Surf Excel,4,220,190,CASH,880,120,April,Thursday
+B0202,2026-04-09 00:00:00,Chocolate,Snacks,Cadbury,14,25,18,CARD,350,98,April,Thursday
+B0203,2026-05-12 00:00:00,Oil,Grocery,Fortune,1,150,130,CARD,150,20,May,Tuesday
+B0204,2026-04-09 00:00:00,Chips,Snacks,Lays,3,20,12,UPI,60,24,April,Thursday
+B0205,2026-04-07 00:00:00,Oil,Grocery,Unknown,8,150,130,CASH,1200,160,April,Tuesday
+B0206,2026-06-04 00:00:00,Milk,Dairy,Aavin,6,30,25,CASH,180,30,June,Thursday
+B0207,2026-01-06 00:00:00,Chocolate ,Snacks,Cadbury,6,25,18,CASH,150,42,January,Tuesday
+B0208,2026-01-31 00:00:00,Chips,Snacks,Lays,5,20,12,CASH,100,40,January,Saturday
+B0209,2026-05-07 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,UPI,2340,390,May,Thursday
+B0210,2026-03-12 00:00:00,Detergent ,Household,Surf Excel,12,40,190,CASH,480,-1800,March,Thursday
+B0211,2026-02-13 00:00:00,Rice,Grocery,Aashirvaad,13,60,50,CARD,780,130,February,Friday
+B0212,2026-02-13 00:00:00,Chocolate,Snacks,Cadbury,3,25,18,CASH,75,21,February,Friday
+B0213,2026-01-03 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,CASH,600,100,January,Saturday
+B0214,2026-02-21 00:00:00,Milk,Dairy,Aavin,1,30,25,CASH,30,5,February,Saturday
+B0215,2026-05-06 00:00:00,Oil,Grocery,Fortune,9,150,130,CARD,1350,180,May,Wednesday
+B0216,2026-06-07 00:00:00,Milk,Dairy,Aavin,5,30,25,CASH,150,25,June,Sunday
+B0217,2026-02-02 00:00:00,Biscuits,Snacks,Britannia,1,30,20,CARD,30,10,February,Monday
+B0218,2026-03-13 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CASH,450,150,March,Friday
+B0219,2026-03-25 00:00:00,Detergent,Household,Surf Excel,11,220,190,CASH,2420,330,March,Wednesday
+B0220,2026-02-22 00:00:00,Milk ,Dairy,Aavin,1,30,25,CARD,30,5,February,Sunday
+B0221,2026-01-26 00:00:00,Milk,Dairy,Aavin,10,30,25,UPI,300,50,January,Monday
+B0222,2026-05-05 00:00:00,Chocolate,Snacks,Cadbury,13,25,18,CARD,325,91,May,Tuesday
+B0223,2026-03-11 00:00:00,Chips,Snacks,Lays,2,20,12,UPI,40,16,March,Wednesday
+B0224,2026-05-10 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,UPI,720,120,May,Sunday
+B0225,2026-06-15 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,CASH,1440,240,June,Monday
+B0226,2026-02-13 00:00:00,Biscuits ,Snacks,Britannia,15,30,20,CASH,450,150,February,Friday
+B0227,2026-04-03 00:00:00,Chips ,Snacks,Lays,12,20,12,UPI,240,96,April,Friday
+B0228,2026-01-04 00:00:00,Rice,Grocery,Aashirvaad,11,60,50,CASH,660,110,January,Sunday
+B0229,2026-05-18 00:00:00,Unknown Product,Grocery,Madhur,12,55,45,UPI,660,120,May,Monday
+B0230,2026-06-18 00:00:00,Chips,Snacks,Lays,6,20,12,UPI,120,48,June,Thursday
+B0231,2026-05-02 00:00:00,Chips,Snacks,Lays,8,20,12,CASH,160,64,May,Saturday
+B0232,2026-02-05 00:00:00,Soap,Personal Care,Lux,8,40,30,CARD,320,80,February,Thursday
+B0233,2026-04-09 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,April,Thursday
+B0234,2026-05-31 00:00:00,Oil ,Grocery,Fortune,5,150,130,CASH,750,100,May,Sunday
+B0235,2026-05-15 00:00:00,Detergent ,Household,Surf Excel,8,220,190,UPI,1760,240,May,Friday
+B0236,2026-01-05 00:00:00,Biscuits,Snacks,Britannia,9,30,20,CARD,270,90,January,Monday
+B0237,2026-05-03 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,May,Sunday
+B0238,2026-01-07 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,CARD,200,56,January,Wednesday
+B0239,2026-03-18 00:00:00,Rice,Grocery,Unknown,1,60,50,CASH,60,10,March,Wednesday
+B0240,2026-03-26 00:00:00,Sugar,Grocery,Madhur,6,55,45,CASH,330,60,March,Thursday
+B0241,2026-04-09 00:00:00,Biscuits,Snacks,Britannia,13,30,20,UPI,390,130,April,Thursday
+B0242,2026-04-29 00:00:00,Rice ,Grocery,Aashirvaad,5,60,50,UPI,300,50,April,Wednesday
+B0243,2026-02-02 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CASH,2520,420,February,Monday
+B0244,2026-04-09 00:00:00,Oil,Grocery,Fortune,2,150,130,CASH,300,40,April,Thursday
+B0245,2026-04-17 00:00:00,Milk ,Dairy,Aavin,4,30,25,UPI,120,20,April,Friday
+B0246,2026-01-17 00:00:00,Chips,Snacks,Unknown,9,20,12,CASH,180,72,January,Saturday
+B0247,2026-03-15 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,UPI,600,100,March,Sunday
+B0248,2026-03-20 00:00:00,Chips,Snacks,Lays,10,20,12,UPI,200,80,March,Friday
+B0249,2026-01-29 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,January,Thursday
+B0250,2026-03-05 00:00:00,Milk,Dairy,Aavin,4,30,25,CASH,120,20,March,Thursday
+B0251,2026-01-03 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,CARD,300,50,January,Saturday
+B0252,2026-02-11 00:00:00,Chips,Snacks,Lays,12,20,12,CARD,240,96,February,Wednesday
+B0253,2026-03-10 00:00:00,Detergent,Household,Surf Excel,11,220,190,UPI,2420,330,March,Tuesday
+B0254,2026-02-12 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,150,CARD,1620,270,February,Thursday
+B0255,2026-02-21 00:00:00,Biscuits ,Snacks,Britannia,6,30,20,UPI,180,60,February,Saturday
+B0256,2026-06-02 00:00:00,Biscuits,Snacks,Britannia,12,30,20,UPI,360,120,June,Tuesday
+B0257,2026-02-27 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,CASH,175,49,February,Friday
+B0258,2026-04-24 00:00:00,Chocolate,Snacks,Cadbury,13,25,18,CARD,325,91,April,Friday
+B0259,2026-05-01 00:00:00,Detergent ,Household,Surf Excel,8,220,190,UPI,1760,240,May,Friday
+B0260,2026-05-11 00:00:00,Soap,Personal Care,Lux,4,40,30,CASH,160,40,May,Monday
+B0261,2026-02-11 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,February,Wednesday
+B0262,2026-06-26 00:00:00,Rice,Grocery,Aashirvaad,1,60,50,CASH,60,10,June,Friday
+B0263,2026-02-22 00:00:00,Chips,Snacks,Lays,2,20,12,CASH,40,16,February,Sunday
+B0264,2026-03-29 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CASH,1080,180,March,Sunday
+B0265,2026-05-20 00:00:00,Detergent,Household,Unknown,2,220,190,UPI,440,60,May,Wednesday
+B0266,2026-04-28 00:00:00,Chocolate,Snacks,Cadbury,13,25,18,CASH,325,91,April,Tuesday
+B0267,2026-02-16 00:00:00,Unknown Product,Dairy,Aavin,5,30,25,UPI,150,25,February,Monday
+B0268,2026-06-12 00:00:00,Sugar,Grocery,Madhur,1,55,45,UPI,55,10,June,Friday
+B0269,2026-03-31 00:00:00,Chocolate,Snacks,Cadbury,5,25,18,UPI,125,35,March,Tuesday
+B0270,2026-03-08 00:00:00,Biscuits,Snacks,Britannia,7,30,20,CASH,210,70,March,Sunday
+B0271,2026-05-17 00:00:00,Biscuits,Snacks,Britannia,7,30,20,UPI,210,70,May,Sunday
+B0272,2026-06-21 00:00:00,Milk ,Dairy,Aavin,7,30,25,CASH,210,35,June,Sunday
+B0273,2026-04-25 00:00:00,Milk,Dairy,Aavin,4,30,25,UPI,120,20,April,Saturday
+B0274,2026-04-25 00:00:00,Detergent,Household,Unknown,15,40,190,CASH,600,-2250,April,Saturday
+B0275,2026-05-02 00:00:00,Milk,Dairy,Aavin,12,30,25,UPI,360,60,May,Saturday
+B0276,2026-06-02 00:00:00,Milk,Dairy,Aavin,5,30,25,CASH,150,25,June,Tuesday
+B0277,2026-03-24 00:00:00,Biscuits,Snacks,Britannia,2,30,20,CASH,60,20,March,Tuesday
+B0278,2026-02-28 00:00:00,Oil,Grocery,Fortune,3,150,130,UPI,450,60,February,Saturday
+B0279,2026-04-26 00:00:00,Milk,Dairy,Aavin,1,30,25,CASH,30,5,April,Sunday
+B0280,2026-01-11 00:00:00,Detergent,Household,Surf Excel,12,220,190,UPI,2640,360,January,Sunday
+B0281,2026-04-17 00:00:00,Soap,Personal Care,Lux,5,40,30,UPI,200,50,April,Friday
+B0282,2026-01-05 00:00:00,Chips ,Snacks,Lays,3,20,12,CASH,60,24,January,Monday
+B0283,2026-06-09 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,CARD,360,60,June,Tuesday
+B0284,2026-04-17 00:00:00,Chocolate,Snacks,Cadbury,14,25,18,CARD,350,98,April,Friday
+B0285,2026-04-03 00:00:00,Chocolate,Snacks,Cadbury,12,25,18,CARD,300,84,April,Friday
+B0286,2026-01-13 00:00:00,Oil,Grocery,Fortune,13,150,130,UPI,1950,260,January,Tuesday
+B0287,2026-04-16 00:00:00,Biscuits,Snacks,Unknown,13,30,20,CASH,390,130,April,Thursday
+B0288,2026-05-24 00:00:00,Detergent,Household,Surf Excel,14,220,190,CASH,3080,420,May,Sunday
+B0289,2026-04-11 00:00:00,Milk,Dairy,Aavin,1,30,25,CARD,30,5,April,Saturday
+B0290,2026-06-07 00:00:00,Milk,Dairy,Aavin,4,30,25,CARD,120,20,June,Sunday
+B0291,2026-05-22 00:00:00,Detergent,Household,Unknown,13,220,190,CASH,2860,390,May,Friday
+B0292,2026-06-08 00:00:00,Rice ,Grocery,Aashirvaad,11,40,50,UPI,440,-110,June,Monday
+B0293,2026-04-13 00:00:00,Chips,Snacks,Lays,5,20,12,CASH,100,40,April,Monday
+B0294,2026-04-19 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,150,CASH,1620,270,April,Sunday
+B0295,2026-02-24 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,February,Tuesday
+B0296,2026-05-18 00:00:00,Soap,Personal Care,Lux,6,40,30,CASH,240,60,May,Monday
+B0297,2026-05-29 00:00:00,Detergent,Household,Unknown,12,220,190,CARD,2640,360,May,Friday
+B0298,2026-06-08 00:00:00,Soap,Personal Care,Lux,8,40,30,CASH,320,80,June,Monday
+B0299,2026-02-18 00:00:00,Oil,Grocery,Fortune,12,150,130,CASH,1800,240,February,Wednesday
+B0300,2026-05-25 00:00:00,Milk,Dairy,Unknown,2,30,25,CASH,60,10,May,Monday
+B0301,2026-05-25 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,CASH,2340,390,May,Monday
+B0302,2026-03-21 00:00:00,Sugar ,Grocery,Madhur,9,55,45,CARD,495,90,March,Saturday
+B0303,2026-06-12 00:00:00,Sugar,Grocery,Madhur,8,55,45,CASH,440,80,June,Friday
+B0304,2026-05-12 00:00:00,Biscuits ,Snacks,Britannia,7,30,20,CARD,210,70,May,Tuesday
+B0305,2026-04-18 00:00:00,Soap ,Personal Care,Lux,9,40,30,CASH,360,90,April,Saturday
+B0306,2026-03-26 00:00:00,Chocolate,Snacks,Unknown,9,25,18,CASH,225,63,March,Thursday
+B0307,2026-05-17 00:00:00,Oil,Grocery,Fortune,12,150,130,CASH,1800,240,May,Sunday
+B0308,2026-01-01 00:00:00,Chocolate,Snacks,Cadbury,9,25,18,CASH,225,63,January,Thursday
+B0309,2026-06-24 00:00:00,Biscuits ,Snacks,Britannia,3,30,20,CASH,90,30,June,Wednesday
+B0310,2026-06-02 00:00:00,Milk,Dairy,Aavin,14,30,25,CARD,420,70,June,Tuesday
+B0311,2026-04-15 00:00:00,Detergent,Household,Unknown,2,220,190,CARD,440,60,April,Wednesday
+B0312,2026-06-15 00:00:00,Milk ,Dairy,Aavin,15,30,25,UPI,450,75,June,Monday
+B0313,2026-02-05 00:00:00,Detergent,Household,Surf Excel,12,220,190,CASH,2640,360,February,Thursday
+B0314,2026-05-30 00:00:00,Biscuits,Snacks,Britannia,13,30,20,UPI,390,130,May,Saturday
+B0315,2026-03-21 00:00:00,Detergent,Household,Surf Excel,9,220,190,CASH,1980,270,March,Saturday
+B0316,2026-05-26 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,May,Tuesday
+B0317,2026-01-31 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,UPI,1080,180,January,Saturday
+B0318,2026-01-08 00:00:00,Soap,Personal Care,Lux,12,40,30,CASH,480,120,January,Thursday
+B0319,2026-02-11 00:00:00,Chips,Snacks,Lays,8,20,12,CASH,160,64,February,Wednesday
+B0320,2026-04-28 00:00:00,Biscuits ,Snacks,Britannia,14,30,20,CASH,420,140,April,Tuesday
+B0321,2026-02-23 00:00:00,Chips,Snacks,Lays,9,20,12,UPI,180,72,February,Monday
+B0322,2026-03-17 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,CASH,120,20,March,Tuesday
+B0323,2026-05-18 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,150,CASH,1620,270,May,Monday
+B0324,2026-01-03 00:00:00,Sugar,Grocery,Madhur,11,55,45,CASH,605,110,January,Saturday
+B0325,2026-06-25 00:00:00,Detergent ,Household,Surf Excel,12,220,190,CASH,2640,360,June,Thursday
+B0326,2026-05-21 00:00:00,Biscuits,Snacks,Britannia,10,30,20,CASH,300,100,May,Thursday
+B0327,2026-01-16 00:00:00,Tea Powder,Beverages,Unknown,15,180,150,UPI,2700,450,January,Friday
+B0328,2026-02-14 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CASH,90,30,February,Saturday
+B0329,2026-06-09 00:00:00,Soap ,Personal Care,Unknown,2,40,30,CARD,80,20,June,Tuesday
+B0330,2026-02-10 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CARD,360,60,February,Tuesday
+B0331,2026-05-17 00:00:00,Tea Powder ,Beverages,Tata Tea,2,180,150,UPI,360,60,May,Sunday
+B0332,2026-01-19 00:00:00,Milk,Dairy,Aavin,3,30,25,UPI,90,15,January,Monday
+B0333,2026-01-06 00:00:00,Chocolate ,Snacks,Unknown,3,25,18,CASH,75,21,January,Tuesday
+B0334,2026-05-05 00:00:00,Oil,Grocery,Fortune,12,150,130,CARD,1800,240,May,Tuesday
+B0335,2026-04-09 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,April,Thursday
+B0336,2026-03-19 00:00:00,Soap,Personal Care,Unknown,15,40,30,CASH,600,150,March,Thursday
+B0337,2026-03-03 00:00:00,Oil,Grocery,Fortune,11,150,130,CASH,1650,220,March,Tuesday
+B0338,2026-02-04 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,CARD,300,50,February,Wednesday
+B0339,2026-05-25 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,May,Monday
+B0340,2026-04-09 00:00:00,Detergent,Household,Surf Excel,5,220,190,CASH,1100,150,April,Thursday
+B0341,2026-06-24 00:00:00,Detergent,Household,Surf Excel,12,220,190,CASH,2640,360,June,Wednesday
+B0342,2026-01-12 00:00:00,Detergent,Household,Surf Excel,7,220,190,CASH,1540,210,January,Monday
+B0343,2026-03-07 00:00:00,Oil,Grocery,Fortune,7,150,130,CASH,1050,140,March,Saturday
+B0344,2026-01-28 00:00:00,Detergent,Household,Surf Excel,10,220,190,UPI,2200,300,January,Wednesday
+B0345,2026-06-12 00:00:00,Biscuits,Snacks,Britannia,8,30,20,UPI,240,80,June,Friday
+B0346,2026-06-06 00:00:00,Oil,Grocery,Fortune,5,150,130,CASH,750,100,June,Saturday
+B0347,2026-05-10 00:00:00,Sugar,Grocery,Madhur,6,55,45,UPI,330,60,May,Sunday
+B0348,2026-06-21 00:00:00,Rice ,Grocery,Unknown,14,60,50,CASH,840,140,June,Sunday
+B0349,2026-03-11 00:00:00,Detergent,Household,Unknown,6,220,190,UPI,1320,180,March,Wednesday
+B0350,2026-04-14 00:00:00,Chips,Snacks,Lays,15,20,12,CASH,300,120,April,Tuesday
+B0351,2026-02-27 00:00:00,Chocolate,Snacks,Cadbury,11,25,18,CASH,275,77,February,Friday
+B0352,2026-06-24 00:00:00,Soap,Personal Care,Lux,5,40,30,UPI,200,50,June,Wednesday
+B0353,2026-06-01 00:00:00,Tea Powder,Beverages,Tata Tea,7,180,150,UPI,1260,210,June,Monday
+B0354,2026-05-05 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,UPI,360,60,May,Tuesday
+B0355,2026-03-21 00:00:00,Rice,Grocery,Unknown,1,60,50,CARD,60,10,March,Saturday
+B0356,2026-01-13 00:00:00,Sugar,Grocery,Madhur,6,55,45,UPI,330,60,January,Tuesday
+B0357,2026-05-16 00:00:00,Detergent,Household,Surf Excel,9,220,190,CASH,1980,270,May,Saturday
+B0358,2026-03-12 00:00:00,Detergent,Household,Surf Excel,2,220,190,CASH,440,60,March,Thursday
+B0359,2026-03-15 00:00:00,Tea Powder ,Beverages,Unknown,4,180,150,CASH,720,120,March,Sunday
+B0360,2026-03-05 00:00:00,Sugar ,Grocery,Madhur,4,55,45,CARD,220,40,March,Thursday
+B0361,2026-05-31 00:00:00,Detergent,Household,Surf Excel,13,220,190,CASH,2860,390,May,Sunday
+B0362,2026-03-16 00:00:00,Tea Powder,Beverages,Tata Tea,1,180,150,UPI,180,30,March,Monday
+B0363,2026-04-24 00:00:00,Sugar,Grocery,Madhur,8,55,45,UPI,440,80,April,Friday
+B0364,2026-06-30 00:00:00,Soap,Personal Care,Lux,6,40,30,UPI,240,60,June,Tuesday
+B0365,2026-01-11 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,January,Sunday
+B0366,2026-01-06 00:00:00,Chocolate ,Snacks,Cadbury,8,25,18,UPI,200,56,January,Tuesday
+B0367,2026-06-29 00:00:00,Sugar,Grocery,Madhur,3,55,45,CASH,165,30,June,Monday
+B0368,2026-05-12 00:00:00,Oil,Grocery,Fortune,9,150,130,CASH,1350,180,May,Tuesday
+B0369,2026-05-07 00:00:00,Detergent,Household,Surf Excel,3,220,190,CASH,660,90,May,Thursday
+B0370,2026-02-01 00:00:00,Sugar,Grocery,Madhur,3,55,45,CASH,165,30,February,Sunday
+B0371,2026-05-15 00:00:00,Soap,Personal Care,Lux,11,40,30,CARD,440,110,May,Friday
+B0372,2026-05-07 00:00:00,Biscuits,Snacks,Britannia,10,30,20,CASH,300,100,May,Thursday
+B0373,2026-05-11 00:00:00,Oil,Grocery,Fortune,1,150,130,CASH,150,20,May,Monday
+B0374,2026-01-22 00:00:00,Unknown Product,Snacks,Lays,8,20,12,UPI,160,64,January,Thursday
+B0375,2026-01-30 00:00:00,Soap,Personal Care,Lux,7,40,30,CASH,280,70,January,Friday
+B0376,2026-02-09 00:00:00,Rice ,Grocery,Aashirvaad,14,60,50,UPI,840,140,February,Monday
+B0377,2026-02-23 00:00:00,Biscuits,Snacks,Britannia,5,30,20,UPI,150,50,February,Monday
+B0378,2026-04-08 00:00:00,Biscuits,Snacks,Britannia,14,30,20,UPI,420,140,April,Wednesday
+B0379,2026-02-23 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CARD,2520,420,February,Monday
+B0380,2026-06-08 00:00:00,Sugar,Grocery,Madhur,1,55,45,CASH,55,10,June,Monday
+B0381,2026-03-09 00:00:00,Soap,Personal Care,Lux,10,40,30,UPI,400,100,March,Monday
+B0382,2026-03-10 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,UPI,25,7,March,Tuesday
+B0383,2026-02-11 00:00:00,Chips,Snacks,Lays,14,20,12,CASH,280,112,February,Wednesday
+B0384,2026-06-01 00:00:00,Chocolate,Snacks,Cadbury,6,25,18,CASH,150,42,June,Monday
+B0385,2026-01-15 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,January,Thursday
+B0386,2026-03-26 00:00:00,Oil,Grocery,Fortune,6,150,130,CASH,900,120,March,Thursday
+B0387,2026-02-18 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,UPI,25,7,February,Wednesday
+B0388,2026-01-23 00:00:00,Oil,Grocery,Fortune,10,150,130,UPI,1500,200,January,Friday
+B0389,2026-05-30 00:00:00,Oil,Grocery,Fortune,6,150,130,CASH,900,120,May,Saturday
+B0390,2026-04-20 00:00:00,Oil ,Grocery,Fortune,2,150,130,CASH,300,40,April,Monday
+B0391,2026-06-24 00:00:00,Chips,Snacks,Lays,12,20,12,CASH,240,96,June,Wednesday
+B0392,2026-01-07 00:00:00,Chips,Snacks,Lays,13,20,12,CASH,260,104,January,Wednesday
+B0393,2026-01-17 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,150,UPI,1620,270,January,Saturday
+B0394,2026-03-26 00:00:00,Milk,Dairy,Unknown,7,30,25,CASH,210,35,March,Thursday
+B0395,2026-04-27 00:00:00,Detergent,Household,Surf Excel,3,220,45,CASH,660,525,April,Monday
+B0396,2026-01-27 00:00:00,Oil,Grocery,Fortune,10,150,130,CASH,1500,200,January,Tuesday
+B0397,2026-03-24 00:00:00,Oil ,Grocery,Fortune,15,150,130,CARD,2250,300,March,Tuesday
+B0398,2026-02-08 00:00:00,Sugar,Grocery,Madhur,5,55,45,UPI,275,50,February,Sunday
+B0399,2026-02-04 00:00:00,Chips,Snacks,Lays,10,40,12,CASH,400,280,February,Wednesday
+B0400,2026-06-29 00:00:00,Soap,Personal Care,Lux,14,40,30,UPI,560,140,June,Monday
+B0401,2026-03-30 00:00:00,Detergent,Household,Unknown,10,220,190,CASH,2200,300,March,Monday
+B0402,2026-03-13 00:00:00,Detergent,Household,Surf Excel,1,220,190,UPI,220,30,March,Friday
+B0403,2026-06-28 00:00:00,Biscuits,Snacks,Unknown,13,30,20,CARD,390,130,June,Sunday
+B0404,2026-03-02 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,UPI,375,105,March,Monday
+B0405,2026-01-30 00:00:00,Sugar,Grocery,Madhur,3,55,45,CASH,165,30,January,Friday
+B0406,2026-02-02 00:00:00,Detergent,Household,Surf Excel,15,220,190,CASH,3300,450,February,Monday
+B0407,2026-01-16 00:00:00,Tea Powder ,Beverages,Tata Tea,4,180,150,UPI,720,120,January,Friday
+B0408,2026-03-06 00:00:00,Tea Powder,Beverages,Tata Tea,15,180,150,CASH,2700,450,March,Friday
+B0409,2026-04-23 00:00:00,Biscuits,Snacks,Britannia,13,30,20,CASH,390,130,April,Thursday
+B0410,2026-01-12 00:00:00,Sugar,Grocery,Madhur,15,55,45,CARD,825,150,January,Monday
+B0411,2026-06-22 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,June,Monday
+B0412,2026-06-24 00:00:00,Chips,Snacks,Lays,9,20,12,CASH,180,72,June,Wednesday
+B0413,2026-01-09 00:00:00,Sugar,Grocery,Madhur,8,55,45,UPI,440,80,January,Friday
+B0414,2026-06-17 00:00:00,Detergent,Household,Surf Excel,13,220,190,UPI,2860,390,June,Wednesday
+B0415,2026-01-18 00:00:00,Chips,Snacks,Lays,8,20,12,CARD,160,64,January,Sunday
+B0416,2026-05-01 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CARD,90,30,May,Friday
+B0417,2026-03-19 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,UPI,1800,300,March,Thursday
+B0418,2026-04-21 00:00:00,Tea Powder,Beverages,Tata Tea,12,180,150,CARD,2160,360,April,Tuesday
+B0419,2026-05-19 00:00:00,Sugar,Grocery,Unknown,14,55,45,UPI,770,140,May,Tuesday
+B0420,2026-06-28 00:00:00,Biscuits,Snacks,Britannia,12,30,20,CARD,360,120,June,Sunday
+B0421,2026-02-07 00:00:00,Milk,Dairy,Aavin,11,30,25,CASH,330,55,February,Saturday
+B0422,2026-05-15 00:00:00,Tea Powder ,Beverages,Tata Tea,6,180,150,CASH,1080,180,May,Friday
+B0423,2026-06-26 00:00:00,Biscuits,Snacks,Britannia,9,30,20,CASH,270,90,June,Friday
+B0424,2026-05-10 00:00:00,Biscuits,Snacks,Britannia,11,30,20,CASH,330,110,May,Sunday
+B0425,2026-01-30 00:00:00,Detergent,Household,Surf Excel,7,220,190,CASH,1540,210,January,Friday
+B0426,2026-04-19 00:00:00,Chips,Snacks,Lays,8,20,12,CARD,160,64,April,Sunday
+B0427,2026-03-09 00:00:00,Chips,Snacks,Lays,7,20,12,CASH,140,56,March,Monday
+B0428,2026-03-20 00:00:00,Tea Powder ,Beverages,Tata Tea,4,180,150,CASH,720,120,March,Friday
+B0429,2026-02-03 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,CASH,50,14,February,Tuesday
+B0430,2026-06-23 00:00:00,Chips ,Snacks,Lays,7,20,12,UPI,140,56,June,Tuesday
+B0431,2026-02-09 00:00:00,Biscuits,Snacks,Britannia,1,30,20,CARD,30,10,February,Monday
+B0432,2026-06-09 00:00:00,Rice,Grocery,Unknown,2,60,50,CASH,120,20,June,Tuesday
+B0433,2026-01-26 00:00:00,Oil,Grocery,Fortune,15,150,130,UPI,2250,300,January,Monday
+B0434,2026-06-28 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CASH,720,120,June,Sunday
+B0435,2026-01-16 00:00:00,Milk,Dairy,Aavin,3,30,25,UPI,90,15,January,Friday
+B0436,2026-02-16 00:00:00,Biscuits,Snacks,Unknown,10,30,20,UPI,300,100,February,Monday
+B0437,2026-06-28 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CASH,360,60,June,Sunday
+B0438,2026-06-29 00:00:00,Chips,Snacks,Lays,3,20,12,CASH,60,24,June,Monday
+B0439,2026-03-28 00:00:00,Biscuits ,Snacks,Britannia,13,30,20,CASH,390,130,March,Saturday
+B0440,2026-03-17 00:00:00,Biscuits,Snacks,Britannia,11,30,20,CASH,330,110,March,Tuesday
+B0441,2026-05-02 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,CASH,1800,300,May,Saturday
+B0442,2026-04-23 00:00:00,Chips,Snacks,Lays,4,20,12,CASH,80,32,April,Thursday
+B0443,2026-03-21 00:00:00,Biscuits,Snacks,Britannia,14,30,20,UPI,420,140,March,Saturday
+B0444,2026-02-01 00:00:00,Rice,Grocery,Aashirvaad,3,60,50,CASH,180,30,February,Sunday
+B0445,2026-02-16 00:00:00,Chips,Snacks,Lays,10,20,12,CARD,200,80,February,Monday
+B0446,2026-04-13 00:00:00,Unknown Product,Grocery,Fortune,8,150,130,CASH,1200,160,April,Monday
+B0447,2026-02-07 00:00:00,Soap ,Personal Care,Lux,8,40,30,CASH,320,80,February,Saturday
+B0448,2026-05-04 00:00:00,Milk,Dairy,Aavin,10,30,25,UPI,300,50,May,Monday
+B0449,2026-02-23 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,UPI,375,105,February,Monday
+B0450,2026-02-26 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,CASH,120,20,February,Thursday
+B0451,2026-03-20 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,CASH,50,14,March,Friday
+B0452,2026-05-25 00:00:00,Biscuits,Snacks,Britannia,7,30,20,UPI,210,70,May,Monday
+B0453,2026-05-30 00:00:00,Milk,Dairy,Aavin,7,30,25,CASH,210,35,May,Saturday
+B0454,2026-05-21 00:00:00,Sugar,Grocery,Madhur,7,40,45,UPI,280,-35,May,Thursday
+B0455,2026-06-08 00:00:00,Chocolate ,Snacks,Cadbury,2,25,18,CARD,50,14,June,Monday
+B0456,2026-01-04 00:00:00,Milk ,Dairy,Aavin,13,30,25,UPI,390,65,January,Sunday
+B0457,2026-01-09 00:00:00,Tea Powder,Beverages,Unknown,5,180,150,CASH,900,150,January,Friday
+B0458,2026-05-04 00:00:00,Soap,Personal Care,Lux,13,40,30,CASH,520,130,May,Monday
+B0459,2026-05-16 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CARD,720,120,May,Saturday
+B0460,2026-04-17 00:00:00,Milk ,Dairy,Aavin,2,30,25,UPI,60,10,April,Friday
+B0461,2026-01-23 00:00:00,Detergent,Household,Surf Excel,9,220,190,CASH,1980,270,January,Friday
+B0462,2026-03-08 00:00:00,Biscuits,Snacks,Britannia,14,30,20,CASH,420,140,March,Sunday
+B0463,2026-02-13 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,February,Friday
+B0464,2026-01-02 00:00:00,Tea Powder,Unknown,Tata Tea,10,180,150,UPI,1800,300,January,Friday
+B0465,2026-04-29 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,April,Wednesday
+B0466,2026-05-05 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,CASH,1800,300,May,Tuesday
+B0467,2026-03-19 00:00:00,Sugar,Grocery,Madhur,14,55,45,UPI,770,140,March,Thursday
+B0468,2026-01-26 00:00:00,Biscuits ,Snacks,Britannia,9,30,20,UPI,270,90,January,Monday
+B0469,2026-03-02 00:00:00,Sugar,Grocery,Madhur,8,55,45,CASH,440,80,March,Monday
+B0470,2026-02-20 00:00:00,Oil,Grocery,Fortune,5,150,130,CASH,750,100,February,Friday
+B0471,2026-02-05 00:00:00,Unknown Product,Dairy,Aavin,1,30,25,CASH,30,5,February,Thursday
+B0472,2026-05-02 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,UPI,1080,180,May,Saturday
+B0473,2026-06-23 00:00:00,Rice,Grocery,Unknown,2,60,50,CASH,120,20,June,Tuesday
+B0474,2026-01-02 00:00:00,Tea Powder,Beverages,Tata Tea,15,180,150,UPI,2700,450,January,Friday
+B0475,2026-05-24 00:00:00,Soap,Personal Care,Lux,7,40,30,CASH,280,70,May,Sunday
+B0476,2026-04-15 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,April,Wednesday
+B0477,2026-01-15 00:00:00,Soap,Unknown,Lux,7,40,30,UPI,280,70,January,Thursday
+B0478,2026-05-22 00:00:00,Chocolate,Snacks,Cadbury,12,25,18,UPI,300,84,May,Friday
+B0479,2026-05-27 00:00:00,Rice,Grocery,Aashirvaad,9,60,50,UPI,540,90,May,Wednesday
+B0480,2026-05-21 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,May,Thursday
+B0481,2026-05-03 00:00:00,Chips,Snacks,Lays,15,20,12,CARD,300,120,May,Sunday
+B0482,2026-03-23 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,March,Monday
+B0483,2026-01-04 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CARD,1080,180,January,Sunday
+B0484,2026-05-10 00:00:00,Milk,Dairy,Aavin,13,30,25,CARD,390,65,May,Sunday
+B0485,2026-05-02 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,May,Saturday
+B0486,2026-03-15 00:00:00,Tea Powder ,Beverages,Tata Tea,12,180,150,CARD,2160,360,March,Sunday
+B0487,2026-04-28 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,UPI,175,49,April,Tuesday
+B0488,2026-05-25 00:00:00,Milk,Dairy,Aavin,3,30,25,CASH,90,15,May,Monday
+B0489,2026-04-21 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,UPI,200,56,April,Tuesday
+B0490,2026-06-24 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,June,Wednesday
+B0491,2026-04-30 00:00:00,Chocolate,Snacks,Cadbury,14,25,18,UPI,350,98,April,Thursday
+B0492,2026-06-06 00:00:00,Chocolate,Snacks,Cadbury,9,25,18,UPI,225,63,June,Saturday
+B0493,2026-03-05 00:00:00,Rice,Grocery,Aashirvaad,8,60,50,CASH,480,80,March,Thursday
+B0494,2026-04-29 00:00:00,Detergent,Household,Surf Excel,7,220,190,CARD,1540,210,April,Wednesday
+B0495,2026-01-20 00:00:00,Milk,Dairy,Aavin,4,30,25,CASH,120,20,January,Tuesday
+B0496,2026-04-15 00:00:00,Milk,Dairy,Aavin,14,30,25,UPI,420,70,April,Wednesday
+B0497,2026-02-14 00:00:00,Oil,Grocery,Fortune,13,150,130,UPI,1950,260,February,Saturday
+B0498,2026-06-03 00:00:00,Detergent ,Household,Surf Excel,7,220,190,UPI,1540,210,June,Wednesday
+B0499,2026-01-19 00:00:00,Milk,Dairy,Aavin,1,30,25,CARD,30,5,January,Monday
+B0500,2026-05-19 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,CASH,100,28,May,Tuesday
+B0501,2026-01-17 00:00:00,Detergent ,Household,Surf Excel,15,220,190,CASH,3300,450,January,Saturday
+B0502,2026-02-11 00:00:00,Chips,Snacks,Lays,11,20,12,CASH,220,88,February,Wednesday
+B0503,2026-01-03 00:00:00,Detergent,Household,Surf Excel,8,220,190,CASH,1760,240,January,Saturday
+B0504,2026-02-21 00:00:00,Unknown Product,Snacks,Lays,10,20,12,UPI,200,80,February,Saturday
+B0505,2026-02-02 00:00:00,Milk,Dairy,Aavin,5,30,25,CASH,150,25,February,Monday
+B0506,2026-05-26 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,May,Tuesday
+B0507,2026-03-11 00:00:00,Tea Powder ,Beverages,Unknown,3,180,150,CARD,540,90,March,Wednesday
+B0508,2026-04-26 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,April,Sunday
+B0509,2026-03-23 00:00:00,Rice,Grocery,Aashirvaad,4,60,50,UPI,240,40,March,Monday
+B0510,2026-06-27 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CARD,720,120,June,Saturday
+B0511,2026-04-10 00:00:00,Soap,Personal Care,Lux,12,40,30,CARD,480,120,April,Friday
+B0512,2026-06-26 00:00:00,Oil,Grocery,Fortune,4,150,130,CARD,600,80,June,Friday
+B0513,2026-03-12 00:00:00,Soap ,Personal Care,Lux,6,40,30,CASH,240,60,March,Thursday
+B0514,2026-01-30 00:00:00,Chips,Snacks,Lays,3,20,12,UPI,60,24,January,Friday
+B0515,2026-06-23 00:00:00,Tea Powder,Beverages,Tata Tea,12,180,150,CASH,2160,360,June,Tuesday
+B0516,2026-05-30 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,May,Saturday
+B0517,2026-06-27 00:00:00,Chocolate,Snacks,Cadbury,12,25,18,CASH,300,84,June,Saturday
+B0518,2026-05-28 00:00:00,Oil,Grocery,Fortune,14,150,130,UPI,2100,280,May,Thursday
+B0519,2026-03-09 00:00:00,Biscuits ,Snacks,Britannia,13,30,20,CASH,390,130,March,Monday
+B0520,2026-01-14 00:00:00,Milk,Dairy,Aavin,5,30,25,CASH,150,25,January,Wednesday
+B0521,2026-04-02 00:00:00,Chocolate,Snacks,Cadbury,6,25,18,CARD,150,42,April,Thursday
+B0522,2026-05-25 00:00:00,Biscuits,Snacks,Britannia,4,30,20,UPI,120,40,May,Monday
+B0523,2026-03-28 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CASH,360,60,March,Saturday
+B0524,2026-04-05 00:00:00,Oil ,Grocery,Fortune,12,150,130,CARD,1800,240,April,Sunday
+B0525,2026-04-15 00:00:00,Sugar,Grocery,Madhur,10,55,45,CASH,550,100,April,Wednesday
+B0526,2026-02-27 00:00:00,Oil,Grocery,Fortune,15,150,130,CARD,2250,300,February,Friday
+B0527,2026-01-08 00:00:00,Sugar ,Grocery,Madhur,8,55,45,UPI,440,80,January,Thursday
+B0528,2026-04-25 00:00:00,Tea Powder,Beverages,Unknown,15,180,150,CARD,2700,450,April,Saturday
+B0529,2026-01-27 00:00:00,Sugar,Grocery,Madhur,12,55,45,UPI,660,120,January,Tuesday
+B0530,2026-02-02 00:00:00,Tea Powder,Beverages,Unknown,5,180,150,CARD,900,150,February,Monday
+B0531,2026-03-08 00:00:00,Soap,Personal Care,Lux,2,40,30,UPI,80,20,March,Sunday
+B0532,2026-04-12 00:00:00,Tea Powder,Beverages,Tata Tea,1,180,150,UPI,180,30,April,Sunday
+B0533,2026-06-26 00:00:00,Oil,Grocery,Fortune,5,150,130,CASH,750,100,June,Friday
+B0534,2026-02-09 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CASH,90,30,February,Monday
+B0535,2026-03-19 00:00:00,Chips,Snacks,Lays,1,20,12,UPI,20,8,March,Thursday
+B0536,2026-04-20 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CASH,450,150,April,Monday
+B0537,2026-06-27 00:00:00,Soap,Personal Care,Lux,10,40,30,CARD,400,100,June,Saturday
+B0538,2026-06-28 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,June,Sunday
+B0539,2026-02-11 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,CARD,120,20,February,Wednesday
+B0540,2026-05-26 00:00:00,Milk,Dairy,Aavin,3,30,25,CASH,90,15,May,Tuesday
+B0541,2026-01-28 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,January,Wednesday
+B0542,2026-03-13 00:00:00,Unknown Product,Household,Surf Excel,10,220,190,CARD,2200,300,March,Friday
+B0543,2026-03-13 00:00:00,Tea Powder ,Beverages,Tata Tea,3,180,150,UPI,540,90,March,Friday
+B0544,2026-04-21 00:00:00,Milk,Dairy,Unknown,1,30,25,CASH,30,5,April,Tuesday
+B0545,2026-06-17 00:00:00,Oil,Grocery,Fortune,12,150,130,UPI,1800,240,June,Wednesday
+B0546,2026-06-18 00:00:00,Detergent,Household,Surf Excel,8,220,190,CASH,1760,240,June,Thursday
+B0547,2026-05-08 00:00:00,Sugar,Grocery,Madhur,15,55,45,CASH,825,150,May,Friday
+B0548,2026-05-24 00:00:00,Chips,Snacks,Lays,11,20,12,CASH,220,88,May,Sunday
+B0549,2026-02-11 00:00:00,Soap,Personal Care,Lux,7,40,30,CASH,280,70,February,Wednesday
+B0550,2026-04-09 00:00:00,Soap ,Personal Care,Lux,3,40,45,CASH,120,-15,April,Thursday
+B0551,2026-03-23 00:00:00,Chips,Snacks,Lays,4,20,12,CASH,80,32,March,Monday
+B0552,2026-06-24 00:00:00,Unknown Product,Dairy,Aavin,1,30,25,UPI,30,5,June,Wednesday
+B0553,2026-05-10 00:00:00,Rice,Grocery,Aashirvaad,15,60,50,CASH,900,150,May,Sunday
+B0554,2026-02-05 00:00:00,Detergent,Household,Surf Excel,7,220,190,UPI,1540,210,February,Thursday
+B0555,2026-02-20 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CASH,720,120,February,Friday
+B0556,2026-05-12 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,UPI,1800,300,May,Tuesday
+B0557,2026-06-24 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,June,Wednesday
+B0558,2026-02-12 00:00:00,Oil,Grocery,Fortune,6,150,130,UPI,900,120,February,Thursday
+B0559,2026-05-11 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,CASH,375,105,May,Monday
+B0560,2026-04-10 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,CASH,200,56,April,Friday
+B0561,2026-03-01 00:00:00,Biscuits,Snacks,Unknown,1,30,20,UPI,30,10,March,Sunday
+B0562,2026-02-12 00:00:00,Rice ,Grocery,Unknown,7,60,50,UPI,420,70,February,Thursday
+B0563,2026-01-29 00:00:00,Rice,Grocery,Aashirvaad,13,60,50,CASH,780,130,January,Thursday
+B0564,2026-06-17 00:00:00,Detergent ,Household,Surf Excel,10,220,190,CASH,2200,300,June,Wednesday
+B0565,2026-03-12 00:00:00,Soap,Personal Care,Unknown,13,40,30,UPI,520,130,March,Thursday
+B0566,2026-02-07 00:00:00,Detergent,Household,Surf Excel,14,220,190,UPI,3080,420,February,Saturday
+B0567,2026-03-12 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CASH,90,30,March,Thursday
+B0568,2026-04-04 00:00:00,Chocolate,Snacks,Cadbury,10,25,18,CASH,250,70,April,Saturday
+B0569,2026-01-05 00:00:00,Soap,Personal Care,Lux,8,40,30,UPI,320,80,January,Monday
+B0570,2026-06-19 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,UPI,600,100,June,Friday
+B0571,2026-04-15 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,CARD,200,56,April,Wednesday
+B0572,2026-02-21 00:00:00,Soap,Personal Care,Lux,11,40,30,CASH,440,110,February,Saturday
+B0573,2026-06-22 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,CASH,25,7,June,Monday
+B0574,2026-03-09 00:00:00,Biscuits,Snacks,Britannia,8,30,20,CASH,240,80,March,Monday
+B0575,2026-02-03 00:00:00,Soap ,Personal Care,Lux,7,40,30,UPI,280,70,February,Tuesday
+B0576,2026-05-04 00:00:00,Rice,Grocery,Aashirvaad,15,60,50,CARD,900,150,May,Monday
+B0577,2026-06-21 00:00:00,Sugar ,Grocery,Madhur,14,55,45,UPI,770,140,June,Sunday
+B0578,2026-05-11 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,May,Monday
+B0579,2026-01-22 00:00:00,Oil,Grocery,Fortune,2,150,130,CARD,300,40,January,Thursday
+B0580,2026-01-23 00:00:00,Sugar,Grocery,Madhur,4,55,45,UPI,220,40,January,Friday
+B0581,2026-05-31 00:00:00,Oil,Grocery,Fortune,4,150,130,CASH,600,80,May,Sunday
+B0582,2026-03-24 00:00:00,Detergent,Household,Surf Excel,7,220,190,UPI,1540,210,March,Tuesday
+B0583,2026-01-03 00:00:00,Biscuits ,Snacks,Britannia,12,30,20,CASH,360,120,January,Saturday
+B0584,2026-01-20 00:00:00,Detergent ,Household,Surf Excel,12,220,190,CASH,2640,360,January,Tuesday
+B0585,2026-03-21 00:00:00,Chips,Snacks,Lays,3,20,12,CASH,60,24,March,Saturday
+B0586,2026-03-29 00:00:00,Detergent,Household,Surf Excel,6,220,190,CASH,1320,180,March,Sunday
+B0587,2026-06-19 00:00:00,Rice ,Grocery,Aashirvaad,14,60,50,CASH,840,140,June,Friday
+B0588,2026-01-02 00:00:00,Chips,Snacks,Lays,7,20,12,CASH,140,56,January,Friday
+B0589,2026-03-05 00:00:00,Tea Powder,Beverages,Unknown,9,180,150,CASH,1620,270,March,Thursday
+B0590,2026-01-05 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,January,Monday
+B0591,2026-03-04 00:00:00,Detergent,Household,Surf Excel,5,220,190,UPI,1100,150,March,Wednesday
+B0592,2026-01-07 00:00:00,Biscuits,Snacks,Britannia,1,30,20,CASH,30,10,January,Wednesday
+B0593,2026-02-01 00:00:00,Sugar,Grocery,Madhur,1,55,45,CARD,55,10,February,Sunday
+B0594,2026-02-17 00:00:00,Chocolate ,Snacks,Cadbury,8,25,18,CASH,200,56,February,Tuesday
+B0595,2026-04-10 00:00:00,Chips ,Snacks,Lays,6,20,12,CASH,120,48,April,Friday
+B0596,2026-05-27 00:00:00,Chips,Snacks,Lays,6,20,12,CASH,120,48,May,Wednesday
+B0597,2026-06-09 00:00:00,Chips,Snacks,Lays,11,20,12,UPI,220,88,June,Tuesday
+B0598,2026-06-04 00:00:00,Chips ,Snacks,Lays,7,20,12,CARD,140,56,June,Thursday
+B0599,2026-04-24 00:00:00,Chips,Snacks,Lays,1,20,12,CASH,20,8,April,Friday
+B0600,2026-02-14 00:00:00,Soap ,Personal Care,Lux,3,40,30,CASH,120,30,February,Saturday
+B0601,2026-05-01 00:00:00,Detergent,Household,Surf Excel,14,220,190,CASH,3080,420,May,Friday
+B0602,2026-04-07 00:00:00,Oil,Grocery,Fortune,1,150,130,CASH,150,20,April,Tuesday
+B0603,2026-02-08 00:00:00,Sugar,Grocery,Madhur,10,55,45,CASH,550,100,February,Sunday
+B0604,2026-01-08 00:00:00,Milk,Dairy,Unknown,5,30,25,UPI,150,25,January,Thursday
+B0605,2026-04-22 00:00:00,Rice,Grocery,Aashirvaad,15,60,50,UPI,900,150,April,Wednesday
+B0606,2026-06-30 00:00:00,Soap,Personal Care,Lux,6,40,30,UPI,240,60,June,Tuesday
+B0607,2026-01-22 00:00:00,Biscuits,Snacks,Britannia,8,30,20,CASH,240,80,January,Thursday
+B0608,2026-04-11 00:00:00,Soap,Personal Care,Lux,9,40,30,CASH,360,90,April,Saturday
+B0609,2026-02-04 00:00:00,Oil,Grocery,Unknown,12,150,130,CARD,1800,240,February,Wednesday
+B0610,2026-04-20 00:00:00,Milk ,Dairy,Unknown,8,30,25,CASH,240,40,April,Monday
+B0611,2026-06-08 00:00:00,Tea Powder,Beverages,Tata Tea,15,180,150,CASH,2700,450,June,Monday
+B0612,2026-04-27 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CASH,2520,420,April,Monday
+B0613,2026-06-26 00:00:00,Chips,Snacks,Lays,8,20,12,CASH,160,64,June,Friday
+B0614,2026-01-06 00:00:00,Milk,Dairy,Aavin,2,30,45,UPI,60,-30,January,Tuesday
+B0615,2026-01-13 00:00:00,Chips,Snacks,Unknown,9,20,12,CASH,180,72,January,Tuesday
+B0616,2026-01-11 00:00:00,Rice,Grocery,Aashirvaad,3,60,50,CASH,180,30,January,Sunday
+B0617,2026-06-03 00:00:00,Soap ,Personal Care,Unknown,10,40,30,CASH,400,100,June,Wednesday
+B0618,2026-04-10 00:00:00,Milk,Dairy,Aavin,15,30,25,CASH,450,75,April,Friday
+B0619,2026-03-29 00:00:00,Milk,Dairy,Aavin,3,30,25,UPI,90,15,March,Sunday
+B0620,2026-02-24 00:00:00,Sugar,Grocery,Madhur,5,55,45,UPI,275,50,February,Tuesday
+B0621,2026-05-05 00:00:00,Detergent,Household,Surf Excel,15,220,190,CASH,3300,450,May,Tuesday
+B0622,2026-02-27 00:00:00,Chips,Snacks,Lays,15,20,12,CASH,300,120,February,Friday
+B0623,2026-06-26 00:00:00,Detergent,Household,Surf Excel,15,220,190,CASH,3300,450,June,Friday
+B0624,2026-03-09 00:00:00,Milk,Dairy,Unknown,5,30,25,UPI,150,25,March,Monday
+B0625,2026-06-23 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,UPI,2520,420,June,Tuesday
+B0626,2026-05-17 00:00:00,Chips,Snacks,Lays,3,20,12,UPI,60,24,May,Sunday
+B0627,2026-05-31 00:00:00,Sugar,Grocery,Madhur,2,55,45,CASH,110,20,May,Sunday
+B0628,2026-06-11 00:00:00,Milk,Dairy,Aavin,13,30,25,CARD,390,65,June,Thursday
+B0629,2026-05-12 00:00:00,Oil,Grocery,Fortune,12,150,130,CARD,1800,240,May,Tuesday
+B0630,2026-04-18 00:00:00,Biscuits ,Snacks,Britannia,12,30,20,UPI,360,120,April,Saturday
+B0631,2026-03-13 00:00:00,Rice,Grocery,Aashirvaad,9,60,50,UPI,540,90,March,Friday
+B0632,2026-01-07 00:00:00,Chips,Snacks,Lays,5,20,12,CASH,100,40,January,Wednesday
+B0633,2026-03-12 00:00:00,Oil,Grocery,Fortune,1,150,130,CARD,150,20,March,Thursday
+B0634,2026-06-10 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,UPI,375,105,June,Wednesday
+B0635,2026-01-22 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,CASH,120,20,January,Thursday
+B0636,2026-02-09 00:00:00,Detergent,Household,Surf Excel,1,220,190,CASH,220,30,February,Monday
+B0637,2026-05-15 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,UPI,2340,390,May,Friday
+B0638,2026-04-06 00:00:00,Chocolate,Snacks,Cadbury,8,25,18,CASH,200,56,April,Monday
+B0639,2026-03-03 00:00:00,Oil ,Grocery,Fortune,1,150,130,UPI,150,20,March,Tuesday
+B0640,2026-05-11 00:00:00,Oil ,Grocery,Fortune,4,150,130,CARD,600,80,May,Monday
+B0641,2026-04-21 00:00:00,Soap,Personal Care,Lux,15,40,30,CARD,600,150,April,Tuesday
+B0642,2026-06-15 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,June,Monday
+B0643,2026-02-17 00:00:00,Oil,Grocery,Fortune,12,150,130,CASH,1800,240,February,Tuesday
+B0644,2026-02-07 00:00:00,Soap,Personal Care,Lux,9,40,30,UPI,360,90,February,Saturday
+B0645,2026-02-21 00:00:00,Sugar ,Grocery,Madhur,10,55,45,CASH,550,100,February,Saturday
+B0646,2026-06-08 00:00:00,Milk,Dairy,Aavin,12,30,25,UPI,360,60,June,Monday
+B0647,2026-03-19 00:00:00,Soap,Personal Care,Unknown,7,40,30,CASH,280,70,March,Thursday
+B0648,2026-06-28 00:00:00,Unknown Product,Beverages,Tata Tea,4,180,150,CASH,720,120,June,Sunday
+B0649,2026-04-21 00:00:00,Rice,Grocery,Aashirvaad,11,60,50,CASH,660,110,April,Tuesday
+B0650,2026-05-28 00:00:00,Biscuits,Snacks,Britannia,14,30,20,UPI,420,140,May,Thursday
+B0651,2026-02-07 00:00:00,Tea Powder,Beverages,Tata Tea,1,180,150,CASH,180,30,February,Saturday
+B0652,2026-06-24 00:00:00,Soap,Personal Care,Unknown,4,40,30,UPI,160,40,June,Wednesday
+B0653,2026-06-03 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,June,Wednesday
+B0654,2026-04-15 00:00:00,Oil,Grocery,Fortune,13,150,130,CASH,1950,260,April,Wednesday
+B0655,2026-03-01 00:00:00,Detergent,Household,Surf Excel,13,220,190,CASH,2860,390,March,Sunday
+B0656,2026-01-09 00:00:00,Soap ,Personal Care,Unknown,3,40,30,CARD,120,30,January,Friday
+B0657,2026-01-10 00:00:00,Chocolate,Snacks,Cadbury,10,25,18,CASH,250,70,January,Saturday
+B0658,2026-04-26 00:00:00,Chips ,Snacks,Lays,15,20,12,CASH,300,120,April,Sunday
+B0659,2026-06-10 00:00:00,Sugar,Grocery,Madhur,5,55,45,UPI,275,50,June,Wednesday
+B0660,2026-06-28 00:00:00,Soap,Personal Care,Lux,7,40,30,CASH,280,70,June,Sunday
+B0661,2026-03-08 00:00:00,Detergent,Household,Surf Excel,9,220,190,UPI,1980,270,March,Sunday
+B0662,2026-03-12 00:00:00,Rice ,Grocery,Aashirvaad,13,60,50,UPI,780,130,March,Thursday
+B0663,2026-06-01 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,June,Monday
+B0664,2026-05-26 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,May,Tuesday
+B0665,2026-04-16 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,April,Thursday
+B0666,2026-03-15 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,CASH,300,50,March,Sunday
+B0667,2026-01-18 00:00:00,Oil,Grocery,Fortune,12,150,130,CARD,1800,240,January,Sunday
+B0668,2026-02-10 00:00:00,Milk,Dairy,Aavin,7,30,25,UPI,210,35,February,Tuesday
+B0669,2026-01-23 00:00:00,Sugar,Grocery,Madhur,4,55,45,CASH,220,40,January,Friday
+B0670,2026-01-05 00:00:00,Rice,Grocery,Aashirvaad,7,60,50,CASH,420,70,January,Monday
+B0671,2026-01-19 00:00:00,Sugar,Grocery,Madhur,2,55,45,CASH,110,20,January,Monday
+B0672,2026-06-19 00:00:00,Chocolate,Snacks,Cadbury,9,25,18,CARD,225,63,June,Friday
+B0673,2026-02-06 00:00:00,Chocolate ,Snacks,Cadbury,10,25,18,CASH,250,70,February,Friday
+B0674,2026-02-27 00:00:00,Milk,Dairy,Aavin,1,30,25,CASH,30,5,February,Friday
+B0675,2026-02-27 00:00:00,Milk,Dairy,Aavin,12,30,25,UPI,360,60,February,Friday
+B0676,2026-01-23 00:00:00,Chips,Snacks,Lays,6,20,12,UPI,120,48,January,Friday
+B0677,2026-01-05 00:00:00,Tea Powder,Beverages,Tata Tea,3,180,150,CASH,540,90,January,Monday
+B0678,2026-03-29 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,UPI,100,28,March,Sunday
+B0679,2026-03-16 00:00:00,Chocolate,Snacks,Cadbury,10,25,18,CASH,250,70,March,Monday
+B0680,2026-04-07 00:00:00,Oil,Grocery,Fortune,9,150,130,UPI,1350,180,April,Tuesday
+B0681,2026-06-16 00:00:00,Tea Powder,Beverages,Tata Tea,15,180,150,CASH,2700,450,June,Tuesday
+B0682,2026-01-04 00:00:00,Oil,Grocery,Fortune,7,150,130,CASH,1050,140,January,Sunday
+B0683,2026-04-12 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,UPI,120,20,April,Sunday
+B0684,2026-06-19 00:00:00,Biscuits,Snacks,Britannia,7,30,20,CASH,210,70,June,Friday
+B0685,2026-04-19 00:00:00,Sugar,Grocery,Madhur,10,55,45,CASH,550,100,April,Sunday
+B0686,2026-03-11 00:00:00,Soap ,Personal Care,Lux,3,40,30,CARD,120,30,March,Wednesday
+B0687,2026-02-18 00:00:00,Detergent,Household,Surf Excel,10,220,190,CASH,2200,300,February,Wednesday
+B0688,2026-01-14 00:00:00,Biscuits,Snacks,Britannia,1,30,20,CARD,30,10,January,Wednesday
+B0689,2026-03-22 00:00:00,Chips,Snacks,Unknown,11,20,12,CASH,220,88,March,Sunday
+B0690,2026-02-19 00:00:00,Chips,Snacks,Lays,5,20,12,CASH,100,40,February,Thursday
+B0691,2026-06-12 00:00:00,Sugar,Grocery,Madhur,10,55,45,CASH,550,100,June,Friday
+B0692,2026-06-06 00:00:00,Oil,Grocery,Fortune,9,150,130,UPI,1350,180,June,Saturday
+B0693,2026-04-07 00:00:00,Chips,Snacks,Lays,8,20,12,CARD,160,64,April,Tuesday
+B0694,2026-06-02 00:00:00,Detergent,Household,Surf Excel,8,220,190,UPI,1760,240,June,Tuesday
+B0695,2026-04-07 00:00:00,Biscuits,Snacks,Britannia,14,30,20,CARD,420,140,April,Tuesday
+B0696,2026-03-12 00:00:00,Detergent,Household,Surf Excel,6,220,190,CARD,1320,180,March,Thursday
+B0697,2026-06-11 00:00:00,Chips,Snacks,Lays,4,20,12,CARD,80,32,June,Thursday
+B0698,2026-05-30 00:00:00,Rice,Grocery,Aashirvaad,4,60,50,CASH,240,40,May,Saturday
+B0699,2026-03-03 00:00:00,Rice,Grocery,Aashirvaad,12,40,50,CASH,480,-120,March,Tuesday
+B0700,2026-02-07 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,CASH,1080,180,February,Saturday
+B0701,2026-02-05 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,CASH,1440,240,February,Thursday
+B0702,2026-01-27 00:00:00,Rice ,Grocery,Aashirvaad,9,60,50,CARD,540,90,January,Tuesday
+B0703,2026-01-10 00:00:00,Unknown Product,Snacks,Lays,2,20,12,CASH,40,16,January,Saturday
+B0704,2026-04-17 00:00:00,Milk,Dairy,Aavin,14,30,25,CARD,420,70,April,Friday
+B0705,2026-02-27 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,CARD,1800,300,February,Friday
+B0706,2026-06-25 00:00:00,Tea Powder,Beverages,Tata Tea,4,40,150,CARD,160,-440,June,Thursday
+B0707,2026-02-22 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,CASH,100,28,February,Sunday
+B0708,2026-01-21 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,CASH,175,49,January,Wednesday
+B0709,2026-05-04 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,UPI,50,14,May,Monday
+B0710,2026-05-21 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,CASH,300,50,May,Thursday
+B0711,2026-04-29 00:00:00,Milk,Dairy,Aavin,10,30,25,CASH,300,50,April,Wednesday
+B0712,2026-04-17 00:00:00,Biscuits,Snacks,Britannia,14,30,20,CASH,420,140,April,Friday
+B0713,2026-02-04 00:00:00,Milk,Dairy,Aavin,6,30,25,CASH,180,30,February,Wednesday
+B0714,2026-06-22 00:00:00,Chips,Snacks,Lays,8,20,12,UPI,160,64,June,Monday
+B0715,2026-03-26 00:00:00,Rice,Grocery,Aashirvaad,3,60,50,CASH,180,30,March,Thursday
+B0716,2026-05-01 00:00:00,Chips ,Snacks,Lays,11,20,12,CARD,220,88,May,Friday
+B0717,2026-03-12 00:00:00,Chips,Snacks,Lays,14,20,12,CARD,280,112,March,Thursday
+B0718,2026-05-03 00:00:00,Milk,Dairy,Aavin,6,30,25,CASH,180,30,May,Sunday
+B0719,2026-06-30 00:00:00,Sugar,Grocery,Madhur,12,55,45,CASH,660,120,June,Tuesday
+B0720,2026-03-13 00:00:00,Tea Powder,Beverages,Tata Tea,9,180,45,CARD,1620,1215,March,Friday
+B0721,2026-06-24 00:00:00,Chips ,Snacks,Lays,9,20,12,CASH,180,72,June,Wednesday
+B0722,2026-06-16 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,CARD,2340,390,June,Tuesday
+B0723,2026-05-06 00:00:00,Chocolate,Snacks,Cadbury,6,25,18,CASH,150,42,May,Wednesday
+B0724,2026-03-17 00:00:00,Unknown Product,Personal Care,Unknown,6,40,30,CASH,240,60,March,Tuesday
+B0725,2026-02-13 00:00:00,Detergent,Household,Surf Excel,12,220,190,UPI,2640,360,February,Friday
+B0726,2026-02-15 00:00:00,Biscuits,Snacks,Britannia,11,30,20,UPI,330,110,February,Sunday
+B0727,2026-06-30 00:00:00,Chips ,Snacks,Lays,3,20,12,CARD,60,24,June,Tuesday
+B0728,2026-04-21 00:00:00,Detergent,Household,Surf Excel,15,220,190,CASH,3300,450,April,Tuesday
+B0729,2026-06-26 00:00:00,Tea Powder ,Beverages,Tata Tea,9,180,150,UPI,1620,270,June,Friday
+B0730,2026-03-31 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CASH,2520,420,March,Tuesday
+B0731,2026-01-28 00:00:00,Tea Powder,Beverages,Tata Tea,12,180,150,CASH,2160,360,January,Wednesday
+B0732,2026-02-15 00:00:00,Oil,Grocery,Fortune,9,150,130,CARD,1350,180,February,Sunday
+B0733,2026-02-15 00:00:00,Sugar ,Grocery,Madhur,11,55,45,CASH,605,110,February,Sunday
+B0734,2026-04-14 00:00:00,Sugar,Grocery,Madhur,10,55,45,CARD,550,100,April,Tuesday
+B0735,2026-06-12 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,June,Friday
+B0736,2026-04-10 00:00:00,Soap,Personal Care,Lux,9,40,30,UPI,360,90,April,Friday
+B0737,2026-02-02 00:00:00,Detergent ,Household,Surf Excel,14,220,190,CASH,3080,420,February,Monday
+B0738,2026-02-18 00:00:00,Tea Powder,Beverages,Tata Tea,3,180,150,UPI,540,90,February,Wednesday
+B0739,2026-04-20 00:00:00,Soap,Personal Care,Unknown,8,40,30,UPI,320,80,April,Monday
+B0740,2026-03-09 00:00:00,Sugar,Grocery,Madhur,12,55,45,UPI,660,120,March,Monday
+B0741,2026-01-23 00:00:00,Detergent,Household,Surf Excel,1,220,190,CARD,220,30,January,Friday
+B0742,2026-01-24 00:00:00,Biscuits,Snacks,Britannia,13,30,20,UPI,390,130,January,Saturday
+B0743,2026-04-27 00:00:00,Sugar,Grocery,Madhur,8,55,45,UPI,440,80,April,Monday
+B0744,2026-01-11 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,CASH,100,28,January,Sunday
+B0745,2026-03-02 00:00:00,Sugar,Grocery,Madhur,2,55,45,CASH,110,20,March,Monday
+B0746,2026-04-21 00:00:00,Biscuits,Snacks,Britannia,12,30,20,CASH,360,120,April,Tuesday
+B0747,2026-03-26 00:00:00,Oil,Grocery,Fortune,9,150,130,CARD,1350,180,March,Thursday
+B0748,2026-02-07 00:00:00,Detergent ,Household,Surf Excel,9,220,190,CASH,1980,270,February,Saturday
+B0749,2026-05-22 00:00:00,Detergent,Household,Surf Excel,15,220,190,CARD,3300,450,May,Friday
+B0750,2026-01-01 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,January,Thursday
+B0751,2026-04-25 00:00:00,Rice ,Grocery,Aashirvaad,1,60,50,CASH,60,10,April,Saturday
+B0752,2026-05-28 00:00:00,Oil,Grocery,Fortune,8,150,130,CARD,1200,160,May,Thursday
+B0753,2026-03-28 00:00:00,Rice ,Grocery,Aashirvaad,6,60,50,UPI,360,60,March,Saturday
+B0754,2026-01-09 00:00:00,Detergent,Household,Surf Excel,3,220,190,CASH,660,90,January,Friday
+B0755,2026-05-06 00:00:00,Detergent,Household,Surf Excel,15,220,190,CASH,3300,450,May,Wednesday
+B0756,2026-06-02 00:00:00,Chocolate,Snacks,Cadbury,12,25,18,CARD,300,84,June,Tuesday
+B0757,2026-05-05 00:00:00,Oil,Grocery,Fortune,13,150,130,UPI,1950,260,May,Tuesday
+B0758,2026-05-12 00:00:00,Oil,Grocery,Fortune,4,150,130,CASH,600,80,May,Tuesday
+B0759,2026-06-28 00:00:00,Oil,Grocery,Fortune,8,150,130,CASH,1200,160,June,Sunday
+B0760,2026-06-11 00:00:00,Soap,Personal Care,Lux,3,40,30,CASH,120,30,June,Thursday
+B0761,2026-02-20 00:00:00,Biscuits,Snacks,Britannia,8,30,20,CASH,240,80,February,Friday
+B0762,2026-01-13 00:00:00,Chips,Snacks,Lays,5,20,12,CASH,100,40,January,Tuesday
+B0763,2026-04-04 00:00:00,Biscuits,Snacks,Britannia,3,30,20,CASH,90,30,April,Saturday
+B0764,2026-06-19 00:00:00,Unknown Product,Grocery,Fortune,9,150,130,CASH,1350,180,June,Friday
+B0765,2026-03-28 00:00:00,Chocolate,Snacks,Cadbury,5,25,18,CASH,125,35,March,Saturday
+B0766,2026-05-24 00:00:00,Detergent,Household,Surf Excel,3,220,190,CARD,660,90,May,Sunday
+B0767,2026-02-02 00:00:00,Chocolate,Snacks,Unknown,3,25,18,CASH,75,21,February,Monday
+B0768,2026-04-06 00:00:00,Oil,Grocery,Fortune,2,150,130,CASH,300,40,April,Monday
+B0769,2026-02-12 00:00:00,Sugar,Grocery,Madhur,15,55,45,UPI,825,150,February,Thursday
+B0770,2026-06-11 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,CARD,1800,300,June,Thursday
+B0771,2026-01-04 00:00:00,Soap ,Personal Care,Lux,2,40,30,UPI,80,20,January,Sunday
+B0772,2026-02-19 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,CASH,1800,300,February,Thursday
+B0773,2026-06-03 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,UPI,2520,420,June,Wednesday
+B0774,2026-01-29 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,UPI,360,60,January,Thursday
+B0775,2026-04-16 00:00:00,Biscuits,Snacks,Unknown,8,30,20,CASH,240,80,April,Thursday
+B0776,2026-02-05 00:00:00,Rice,Grocery,Aashirvaad,5,60,50,UPI,300,50,February,Thursday
+B0777,2026-05-27 00:00:00,Oil,Grocery,Fortune,2,150,130,CARD,300,40,May,Wednesday
+B0778,2026-02-06 00:00:00,Biscuits,Snacks,Britannia,4,30,20,UPI,120,40,February,Friday
+B0779,2026-02-28 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,UPI,360,60,February,Saturday
+B0780,2026-04-15 00:00:00,Soap,Personal Care,Lux,1,40,30,UPI,40,10,April,Wednesday
+B0781,2026-02-28 00:00:00,Chips,Snacks,Lays,15,20,12,CASH,300,120,February,Saturday
+B0782,2026-06-25 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CARD,450,150,June,Thursday
+B0783,2026-01-31 00:00:00,Soap ,Personal Care,Lux,2,40,30,CASH,80,20,January,Saturday
+B0784,2026-05-11 00:00:00,Rice,Grocery,Aashirvaad,11,60,50,UPI,660,110,May,Monday
+B0785,2026-01-25 00:00:00,Chocolate,Snacks,Unknown,12,25,18,CASH,300,84,January,Sunday
+B0786,2026-03-24 00:00:00,Sugar,Grocery,Madhur,4,55,45,CARD,220,40,March,Tuesday
+B0787,2026-03-23 00:00:00,Chips,Snacks,Lays,10,20,12,CARD,200,80,March,Monday
+B0788,2026-04-08 00:00:00,Milk,Dairy,Aavin,8,30,25,CASH,240,40,April,Wednesday
+B0789,2026-04-29 00:00:00,Milk,Dairy,Aavin,4,30,25,CASH,120,20,April,Wednesday
+B0790,2026-06-12 00:00:00,Tea Powder,Beverages,Tata Tea,14,180,150,CARD,2520,420,June,Friday
+B0791,2026-06-24 00:00:00,Sugar ,Grocery,Madhur,12,55,45,CARD,660,120,June,Wednesday
+B0792,2026-01-29 00:00:00,Rice ,Grocery,Aashirvaad,13,60,50,CASH,780,130,January,Thursday
+B0793,2026-03-14 00:00:00,Biscuits,Snacks,Britannia,5,30,20,CASH,150,50,March,Saturday
+B0794,2026-01-03 00:00:00,Biscuits,Snacks,Unknown,12,30,20,UPI,360,120,January,Saturday
+B0795,2026-01-08 00:00:00,Rice,Grocery,Aashirvaad,4,60,50,CARD,240,40,January,Thursday
+B0796,2026-05-22 00:00:00,Detergent,Household,Surf Excel,9,220,190,CASH,1980,270,May,Friday
+B0797,2026-01-22 00:00:00,Milk,Dairy,Aavin,15,30,25,CASH,450,75,January,Thursday
+B0798,2026-06-15 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,CARD,175,49,June,Monday
+B0799,2026-03-05 00:00:00,Detergent ,Household,Surf Excel,1,220,190,UPI,220,30,March,Thursday
+B0800,2026-06-09 00:00:00,Milk ,Unknown,Aavin,11,30,25,CASH,330,55,June,Tuesday
+B0801,2026-01-25 00:00:00,Oil,Grocery,Fortune,15,150,130,CARD,2250,300,January,Sunday
+B0802,2026-03-28 00:00:00,Unknown Product,Dairy,Unknown,6,30,25,CASH,180,30,March,Saturday
+B0803,2026-02-17 00:00:00,Oil,Grocery,Fortune,13,150,130,CARD,1950,260,February,Tuesday
+B0804,2026-02-11 00:00:00,Milk,Dairy,Aavin,8,30,25,UPI,240,40,February,Wednesday
+B0805,2026-05-24 00:00:00,Chocolate,Snacks,Cadbury,7,25,18,UPI,175,49,May,Sunday
+B0806,2026-04-30 00:00:00,Detergent,Household,Surf Excel,9,220,190,CASH,1980,270,April,Thursday
+B0807,2026-02-22 00:00:00,Soap,Personal Care,Lux,9,40,30,UPI,360,90,February,Sunday
+B0808,2026-01-07 00:00:00,Detergent,Household,Surf Excel,14,220,190,CASH,3080,420,January,Wednesday
+B0809,2026-02-06 00:00:00,Tea Powder,Beverages,Tata Tea,3,180,150,CASH,540,90,February,Friday
+B0810,2026-05-20 00:00:00,Tea Powder,Beverages,Tata Tea,2,180,150,CASH,360,60,May,Wednesday
+B0811,2026-05-05 00:00:00,Soap,Personal Care,Lux,5,40,30,CASH,200,50,May,Tuesday
+B0812,2026-01-16 00:00:00,Chips,Snacks,Lays,15,20,12,CASH,300,120,January,Friday
+B0813,2026-03-03 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,UPI,360,60,March,Tuesday
+B0814,2026-03-22 00:00:00,Detergent,Household,Surf Excel,14,220,190,CASH,3080,420,March,Sunday
+B0815,2026-06-11 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,UPI,120,20,June,Thursday
+B0816,2026-04-15 00:00:00,Tea Powder,Beverages,Tata Tea,7,180,150,UPI,1260,210,April,Wednesday
+B0817,2026-06-24 00:00:00,Chips,Snacks,Unknown,7,20,12,CASH,140,56,June,Wednesday
+B0818,2026-05-05 00:00:00,Milk,Dairy,Aavin,5,30,25,UPI,150,25,May,Tuesday
+B0819,2026-04-25 00:00:00,Sugar,Grocery,Madhur,1,55,45,CASH,55,10,April,Saturday
+B0820,2026-06-27 00:00:00,Chips,Snacks,Lays,12,20,12,UPI,240,96,June,Saturday
+B0821,2026-04-01 00:00:00,Chips,Snacks,Lays,4,20,12,UPI,80,32,April,Wednesday
+B0822,2026-03-28 00:00:00,Detergent,Household,Surf Excel,1,220,190,CASH,220,30,March,Saturday
+B0823,2026-01-25 00:00:00,Biscuits,Snacks,Britannia,8,30,20,UPI,240,80,January,Sunday
+B0824,2026-05-07 00:00:00,Milk,Dairy,Aavin,4,30,25,CARD,120,20,May,Thursday
+B0825,2026-01-29 00:00:00,Sugar ,Grocery,Madhur,7,55,45,UPI,385,70,January,Thursday
+B0826,2026-03-03 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,March,Tuesday
+B0827,2026-05-03 00:00:00,Chocolate,Snacks,Cadbury,4,25,18,CASH,100,28,May,Sunday
+B0828,2026-06-11 00:00:00,Unknown Product,Personal Care,Lux,2,40,30,CASH,80,20,June,Thursday
+B0829,2026-03-09 00:00:00,Chips,Snacks,Lays,14,20,12,UPI,280,112,March,Monday
+B0830,2026-04-11 00:00:00,Milk,Dairy,Aavin,9,30,25,CASH,270,45,April,Saturday
+B0831,2026-03-03 00:00:00,Soap,Personal Care,Lux,11,40,30,UPI,440,110,March,Tuesday
+B0832,2026-02-06 00:00:00,Chips,Snacks,Lays,15,20,12,CARD,300,120,February,Friday
+B0833,2026-06-28 00:00:00,Detergent,Household,Surf Excel,1,220,190,CASH,220,30,June,Sunday
+B0834,2026-03-06 00:00:00,Chocolate,Snacks,Cadbury,1,25,18,UPI,25,7,March,Friday
+B0835,2026-04-26 00:00:00,Soap ,Personal Care,Unknown,6,40,30,UPI,240,60,April,Sunday
+B0836,2026-01-08 00:00:00,Detergent,Household,Surf Excel,4,220,190,UPI,880,120,January,Thursday
+B0837,2026-01-10 00:00:00,Detergent,Household,Surf Excel,10,220,190,UPI,2200,300,January,Saturday
+B0838,2026-03-26 00:00:00,Rice,Grocery,Aashirvaad,1,40,50,CARD,40,-10,March,Thursday
+B0839,2026-03-26 00:00:00,Detergent,Household,Surf Excel,7,220,190,CARD,1540,210,March,Thursday
+B0840,2026-05-09 00:00:00,Biscuits,Snacks,Britannia,7,30,20,UPI,210,70,May,Saturday
+B0841,2026-05-01 00:00:00,Chocolate,Snacks,Cadbury,12,25,18,UPI,300,84,May,Friday
+B0842,2026-04-24 00:00:00,Soap,Personal Care,Lux,5,40,30,UPI,200,50,April,Friday
+B0843,2026-02-14 00:00:00,Sugar,Grocery,Madhur,11,55,45,UPI,605,110,February,Saturday
+B0844,2026-03-14 00:00:00,Rice,Grocery,Aashirvaad,9,60,50,CASH,540,90,March,Saturday
+B0845,2026-01-16 00:00:00,Milk ,Dairy,Aavin,7,30,25,UPI,210,35,January,Friday
+B0846,2026-05-29 00:00:00,Sugar,Grocery,Unknown,6,55,45,CARD,330,60,May,Friday
+B0847,2026-06-26 00:00:00,Biscuits,Snacks,Britannia,10,30,20,CARD,300,100,June,Friday
+B0848,2026-04-10 00:00:00,Detergent,Household,Surf Excel,11,220,190,CASH,2420,330,April,Friday
+B0849,2026-03-28 00:00:00,Soap,Personal Care,Lux,2,40,30,CARD,80,20,March,Saturday
+B0850,2026-05-05 00:00:00,Sugar,Grocery,Madhur,5,55,45,CASH,275,50,May,Tuesday
+B0851,2026-01-09 00:00:00,Biscuits,Snacks,Britannia,6,30,20,CASH,180,60,January,Friday
+B0852,2026-06-09 00:00:00,Detergent,Household,Surf Excel,13,220,190,UPI,2860,390,June,Tuesday
+B0853,2026-01-18 00:00:00,Biscuits,Snacks,Britannia,5,30,20,CARD,150,50,January,Sunday
+B0854,2026-02-16 00:00:00,Oil,Grocery,Fortune,9,150,45,CASH,1350,945,February,Monday
+B0855,2026-04-05 00:00:00,Soap,Personal Care,Lux,10,40,30,CARD,400,100,April,Sunday
+B0856,2026-02-27 00:00:00,Milk,Dairy,Aavin,3,30,25,CASH,90,15,February,Friday
+B0857,2026-05-21 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,May,Thursday
+B0858,2026-05-04 00:00:00,Tea Powder ,Beverages,Tata Tea,9,180,150,UPI,1620,270,May,Monday
+B0859,2026-01-14 00:00:00,Milk,Dairy,Aavin,9,30,25,CASH,270,45,January,Wednesday
+B0860,2026-05-26 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,May,Tuesday
+B0861,2026-06-07 00:00:00,Rice,Grocery,Unknown,2,60,50,CARD,120,20,June,Sunday
+B0862,2026-06-18 00:00:00,Milk,Dairy,Aavin,12,30,25,CASH,360,60,June,Thursday
+B0863,2026-02-25 00:00:00,Biscuits ,Snacks,Britannia,1,30,20,CARD,30,10,February,Wednesday
+B0864,2026-05-29 00:00:00,Tea Powder ,Beverages,Tata Tea,12,180,150,CASH,2160,360,May,Friday
+B0865,2026-01-28 00:00:00,Milk,Dairy,Aavin,10,30,25,CASH,300,50,January,Wednesday
+B0866,2026-05-14 00:00:00,Soap ,Personal Care,Lux,14,40,30,CARD,560,140,May,Thursday
+B0867,2026-02-16 00:00:00,Tea Powder ,Beverages,Tata Tea,15,180,150,CASH,2700,450,February,Monday
+B0868,2026-04-28 00:00:00,Chips,Snacks,Unknown,7,20,12,CASH,140,56,April,Tuesday
+B0869,2026-05-10 00:00:00,Tea Powder ,Beverages,Tata Tea,6,180,150,UPI,1080,180,May,Sunday
+B0870,2026-04-17 00:00:00,Chips,Snacks,Unknown,3,20,12,UPI,60,24,April,Friday
+B0871,2026-01-24 00:00:00,Chocolate,Snacks,Cadbury,2,25,18,CASH,50,14,January,Saturday
+B0872,2026-01-23 00:00:00,Chocolate ,Snacks,Cadbury,2,25,18,UPI,50,14,January,Friday
+B0873,2026-02-07 00:00:00,Milk ,Dairy,Aavin,15,30,25,CASH,450,75,February,Saturday
+B0874,2026-03-17 00:00:00,Detergent,Household,Surf Excel,1,220,190,CASH,220,30,March,Tuesday
+B0875,2026-02-15 00:00:00,Chocolate,Snacks,Cadbury,6,25,18,CARD,150,42,February,Sunday
+B0876,2026-06-11 00:00:00,Tea Powder,Beverages,Unknown,8,180,150,UPI,1440,240,June,Thursday
+B0877,2026-05-09 00:00:00,Detergent,Household,Surf Excel,7,220,190,UPI,1540,210,May,Saturday
+B0878,2026-02-26 00:00:00,Oil,Grocery,Fortune,15,150,130,UPI,2250,300,February,Thursday
+B0879,2026-06-25 00:00:00,Biscuits,Snacks,Britannia,4,30,20,UPI,120,40,June,Thursday
+B0880,2026-01-19 00:00:00,Biscuits,Snacks,Britannia,15,30,20,CASH,450,150,January,Monday
+B0881,2026-06-12 00:00:00,Tea Powder,Beverages,Tata Tea,5,180,150,CASH,900,150,June,Friday
+B0882,2026-03-26 00:00:00,Soap,Personal Care,Lux,4,40,30,CASH,160,40,March,Thursday
+B0883,2026-05-01 00:00:00,Rice,Grocery,Unknown,5,60,50,CASH,300,50,May,Friday
+B0884,2026-05-13 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,CASH,1440,240,May,Wednesday
+B0885,2026-04-26 00:00:00,Oil,Grocery,Unknown,8,150,130,UPI,1200,160,April,Sunday
+B0886,2026-01-20 00:00:00,Milk,Dairy,Aavin,5,30,25,UPI,150,25,January,Tuesday
+B0887,2026-03-01 00:00:00,Oil,Grocery,Fortune,4,150,130,CASH,600,80,March,Sunday
+B0888,2026-06-18 00:00:00,Rice,Grocery,Aashirvaad,1,60,50,UPI,60,10,June,Thursday
+B0889,2026-04-08 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,CARD,600,100,April,Wednesday
+B0890,2026-04-28 00:00:00,Chips,Snacks,Lays,15,20,12,CARD,300,120,April,Tuesday
+B0891,2026-05-18 00:00:00,Biscuits ,Unknown,Britannia,7,30,20,CASH,210,70,May,Monday
+B0892,2026-02-11 00:00:00,Detergent,Household,Surf Excel,12,220,190,CARD,2640,360,February,Wednesday
+B0893,2026-06-02 00:00:00,Milk,Dairy,Aavin,8,30,25,CARD,240,40,June,Tuesday
+B0894,2026-06-24 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,UPI,1800,300,June,Wednesday
+B0895,2026-05-26 00:00:00,Chips,Snacks,Lays,12,20,12,UPI,240,96,May,Tuesday
+B0896,2026-02-22 00:00:00,Chocolate,Snacks,Cadbury,3,25,18,CARD,75,21,February,Sunday
+B0897,2026-04-06 00:00:00,Biscuits,Snacks,Britannia,1,30,20,CASH,30,10,April,Monday
+B0898,2026-04-03 00:00:00,Chocolate,Snacks,Cadbury,15,25,18,CASH,375,105,April,Friday
+B0899,2026-06-12 00:00:00,Detergent,Household,Surf Excel,13,220,190,UPI,2860,390,June,Friday
+B0900,2026-03-20 00:00:00,Soap,Personal Care,Lux,2,40,30,CARD,80,20,March,Friday
+B0901,2026-05-07 00:00:00,Soap ,Personal Care,Lux,6,40,30,CASH,240,60,May,Thursday
+B0902,2026-04-15 00:00:00,Biscuits,Snacks,Britannia,13,30,20,CASH,390,130,April,Wednesday
+B0903,2026-01-28 00:00:00,Soap,Personal Care,Lux,7,40,30,UPI,280,70,January,Wednesday
+B0904,2026-03-01 00:00:00,Oil,Grocery,Fortune,9,150,130,UPI,1350,180,March,Sunday
+B0905,2026-05-04 00:00:00,Milk,Dairy,Aavin,3,30,25,CASH,90,15,May,Monday
+B0906,2026-03-22 00:00:00,Soap,Personal Care,Lux,2,40,30,CASH,80,20,March,Sunday
+B0907,2026-02-04 00:00:00,Rice,Grocery,Unknown,6,60,50,CARD,360,60,February,Wednesday
+B0908,2026-02-27 00:00:00,Biscuits,Snacks,Britannia,3,30,20,UPI,90,30,February,Friday
+B0909,2026-02-19 00:00:00,Chocolate,Snacks,Unknown,4,25,18,UPI,100,28,February,Thursday
+B0910,2026-02-06 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,CARD,600,100,February,Friday
+B0911,2026-04-06 00:00:00,Soap,Personal Care,Lux,1,40,30,UPI,40,10,April,Monday
+B0912,2026-04-08 00:00:00,Soap,Personal Care,Unknown,1,40,30,CARD,40,10,April,Wednesday
+B0913,2026-06-11 00:00:00,Oil,Grocery,Fortune,14,150,130,CASH,2100,280,June,Thursday
+B0914,2026-01-30 00:00:00,Detergent,Household,Surf Excel,10,220,190,CARD,2200,300,January,Friday
+B0915,2026-03-03 00:00:00,Detergent,Household,Surf Excel,7,220,190,UPI,1540,210,March,Tuesday
+B0916,2026-01-02 00:00:00,Rice,Grocery,Aashirvaad,6,60,50,CARD,360,60,January,Friday
+B0917,2026-04-18 00:00:00,Milk,Dairy,Aavin,4,30,25,CASH,120,20,April,Saturday
+B0918,2026-05-26 00:00:00,Tea Powder,Beverages,Tata Tea,8,180,150,UPI,1440,240,May,Tuesday
+B0919,2026-01-03 00:00:00,Soap,Personal Care,Lux,13,40,30,CASH,520,130,January,Saturday
+B0920,2026-01-12 00:00:00,Milk,Dairy,Aavin,13,30,25,CASH,390,65,January,Monday
+B0921,2026-01-02 00:00:00,Rice,Grocery,Aashirvaad,4,60,50,CASH,240,40,January,Friday
+B0922,2026-01-11 00:00:00,Sugar,Grocery,Madhur,14,55,45,CASH,770,140,January,Sunday
+B0923,2026-01-11 00:00:00,Soap,Personal Care,Lux,5,40,30,CASH,200,50,January,Sunday
+B0924,2026-01-06 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,UPI,1800,300,January,Tuesday
+B0925,2026-06-20 00:00:00,Rice,Grocery,Aashirvaad,15,60,50,CASH,900,150,June,Saturday
+B0926,2026-06-07 00:00:00,Milk,Dairy,Aavin,2,30,25,CASH,60,10,June,Sunday
+B0927,2026-06-12 00:00:00,Chips,Snacks,Lays,7,20,12,UPI,140,56,June,Friday
+B0928,2026-06-12 00:00:00,Chips,Snacks,Unknown,9,20,12,CARD,180,72,June,Friday
+B0929,2026-06-19 00:00:00,Chips ,Snacks,Lays,1,20,12,CASH,20,8,June,Friday
+B0930,2026-04-24 00:00:00,Detergent,Household,Surf Excel,7,220,190,CASH,1540,210,April,Friday
+B0931,2026-03-06 00:00:00,Detergent,Household,Surf Excel,13,220,190,CASH,2860,390,March,Friday
+B0932,2026-05-08 00:00:00,Sugar,Grocery,Madhur,3,55,45,CASH,165,30,May,Friday
+B0933,2026-05-24 00:00:00,Soap,Personal Care,Lux,8,40,30,UPI,320,80,May,Sunday
+B0934,2026-03-24 00:00:00,Oil ,Grocery,Fortune,12,150,130,CASH,1800,240,March,Tuesday
+B0935,2026-05-02 00:00:00,Rice,Grocery,Aashirvaad,14,60,50,CASH,840,140,May,Saturday
+B0936,2026-02-04 00:00:00,Soap,Personal Care,Lux,14,40,30,CARD,560,140,February,Wednesday
+B0937,2026-01-26 00:00:00,Milk,Dairy,Aavin,12,30,25,CARD,360,60,January,Monday
+B0938,2026-03-24 00:00:00,Milk,Dairy,Aavin,9,30,25,CASH,270,45,March,Tuesday
+B0939,2026-06-16 00:00:00,Oil,Grocery,Fortune,13,150,130,CASH,1950,260,June,Tuesday
+B0940,2026-04-01 00:00:00,Rice,Grocery,Aashirvaad,10,60,50,CASH,600,100,April,Wednesday
+B0941,2026-06-06 00:00:00,Chips ,Snacks,Lays,11,20,12,CASH,220,88,June,Saturday
+B0942,2026-01-02 00:00:00,Sugar ,Grocery,Madhur,8,55,45,CASH,440,80,January,Friday
+B0943,2026-01-08 00:00:00,Rice,Grocery,Aashirvaad,9,60,50,UPI,540,90,January,Thursday
+B0944,2026-02-01 00:00:00,Soap,Personal Care,Lux,4,40,30,CASH,160,40,February,Sunday
+B0945,2026-06-21 00:00:00,Soap,Personal Care,Lux,12,40,30,UPI,480,120,June,Sunday
+B0946,2026-03-06 00:00:00,Oil,Grocery,Fortune,4,150,130,UPI,600,80,March,Friday
+B0947,2026-03-22 00:00:00,Biscuits,Snacks,Britannia,5,30,20,CASH,150,50,March,Sunday
+B0948,2026-04-07 00:00:00,Sugar,Grocery,Madhur,12,55,45,UPI,660,120,April,Tuesday
+B0949,2026-04-12 00:00:00,Rice,Grocery,Aashirvaad,1,60,50,CASH,60,10,April,Sunday
+B0950,2026-03-22 00:00:00,Sugar,Grocery,Madhur,12,55,45,CASH,660,120,March,Sunday
+B0951,2026-05-15 00:00:00,Sugar,Grocery,Madhur,4,55,45,UPI,220,40,May,Friday
+B0952,2026-05-30 00:00:00,Tea Powder,Beverages,Tata Tea,10,180,150,UPI,1800,300,May,Saturday
+B0953,2026-03-29 00:00:00,Oil,Grocery,Fortune,6,150,130,CASH,900,120,March,Sunday
+B0954,2026-06-18 00:00:00,Chips,Snacks,Lays,5,20,12,UPI,100,40,June,Thursday
+B0955,2026-04-11 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,CASH,720,120,April,Saturday
+B0956,2026-05-09 00:00:00,Oil,Grocery,Fortune,11,150,130,UPI,1650,220,May,Saturday
+B0957,2026-05-29 00:00:00,Chips,Snacks,Lays,13,20,12,UPI,260,104,May,Friday
+B0958,2026-05-14 00:00:00,Milk ,Dairy,Aavin,8,30,25,CARD,240,40,May,Thursday
+B0959,2026-04-15 00:00:00,Detergent,Household,Surf Excel,7,220,190,UPI,1540,210,April,Wednesday
+B0960,2026-04-10 00:00:00,Soap,Personal Care,Lux,10,40,30,CASH,400,100,April,Friday
+B0961,2026-05-31 00:00:00,Tea Powder,Beverages,Tata Tea,1,180,150,CARD,180,30,May,Sunday
+B0962,2026-01-30 00:00:00,Chocolate,Snacks,Cadbury,14,25,18,CARD,350,98,January,Friday
+B0963,2026-04-04 00:00:00,Oil,Unknown,Fortune,7,150,130,UPI,1050,140,April,Saturday
+B0964,2026-04-11 00:00:00,Chips,Snacks,Lays,3,20,12,UPI,60,24,April,Saturday
+B0965,2026-06-26 00:00:00,Detergent,Household,Surf Excel,2,220,190,UPI,440,60,June,Friday
+B0966,2026-02-23 00:00:00,Sugar,Grocery,Madhur,12,55,45,CASH,660,120,February,Monday
+B0967,2026-01-29 00:00:00,Soap ,Personal Care,Lux,7,40,30,UPI,280,70,January,Thursday
+B0968,2026-01-29 00:00:00,Soap,Personal Care,Lux,15,40,30,UPI,600,150,January,Thursday
+B0969,2026-03-14 00:00:00,Milk ,Dairy,Aavin,1,30,25,CASH,30,5,March,Saturday
+B0970,2026-02-02 00:00:00,Detergent,Household,Surf Excel,14,220,190,UPI,3080,420,February,Monday
+B0971,2026-02-19 00:00:00,Soap,Personal Care,Lux,8,40,30,CARD,320,80,February,Thursday
+B0972,2026-04-21 00:00:00,Sugar ,Grocery,Madhur,6,55,45,UPI,330,60,April,Tuesday
+B0973,2026-02-09 00:00:00,Biscuits,Snacks,Britannia,5,30,20,CARD,150,50,February,Monday
+B0974,2026-02-12 00:00:00,Sugar,Grocery,Madhur,13,55,45,CASH,715,130,February,Thursday
+B0975,2026-05-21 00:00:00,Rice,Grocery,Aashirvaad,2,60,50,CARD,120,20,May,Thursday
+B0976,2026-01-31 00:00:00,Milk,Dairy,Aavin,14,30,25,CASH,420,70,January,Saturday
+B0977,2026-03-08 00:00:00,Chips,Snacks,Lays,8,20,12,CASH,160,64,March,Sunday
+B0978,2026-01-11 00:00:00,Biscuits,Snacks,Britannia,9,30,20,UPI,270,90,January,Sunday
+B0979,2026-06-09 00:00:00,Rice,Grocery,Aashirvaad,11,60,50,UPI,660,110,June,Tuesday
+B0980,2026-03-22 00:00:00,Oil ,Grocery,Fortune,1,150,130,CASH,150,20,March,Sunday
+B0981,2026-01-26 00:00:00,Oil,Grocery,Fortune,12,150,130,UPI,1800,240,January,Monday
+B0982,2026-03-30 00:00:00,Biscuits,Unknown,Britannia,8,30,20,CASH,240,80,March,Monday
+B0983,2026-01-26 00:00:00,Rice,Grocery,Aashirvaad,12,60,50,UPI,720,120,January,Monday
+B0984,2026-06-06 00:00:00,Tea Powder,Beverages,Tata Tea,13,180,150,UPI,2340,390,June,Saturday
+B0985,2026-06-20 00:00:00,Rice,Grocery,Aashirvaad,9,60,50,CASH,540,90,June,Saturday
+B0986,2026-01-31 00:00:00,Chocolate,Unknown,Cadbury,10,25,18,CASH,250,70,January,Saturday
+B0987,2026-03-29 00:00:00,Tea Powder,Beverages,Tata Tea,4,180,150,CASH,720,120,March,Sunday
+B0988,2026-04-16 00:00:00,Milk,Dairy,Aavin,10,30,25,CASH,300,50,April,Thursday
+B0989,2026-03-12 00:00:00,Tea Powder,Beverages,Tata Tea,6,180,150,UPI,1080,180,March,Thursday
+B0990,2026-01-11 00:00:00,Sugar,Grocery,Madhur,5,55,45,UPI,275,50,January,Sunday
