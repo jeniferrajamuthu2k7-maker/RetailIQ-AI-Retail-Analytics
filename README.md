@@ -189,7 +189,7 @@ https://github.com/jeniferrajamuthu2k7-maker/RetailIQ-AI-Retail-Analytics
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Jenifer R**
 BSc Artificial Intelligence and Machine Learning
