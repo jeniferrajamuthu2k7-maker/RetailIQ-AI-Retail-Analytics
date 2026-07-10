@@ -12,18 +12,23 @@ st.set_page_config(
     page_icon="🛒",
     layout="wide"
 )
+import os
+import joblib
+import pandas as pd
+
 # -------------------------
 # LOAD MODEL
 # -------------------------
 
-model = joblib.load("retail_sales_model.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(os.path.join(BASE_DIR, "retail_sales_model.pkl"))
 
 # -------------------------
 # LOAD DATASET
 # -------------------------
 
-df = pd.read_csv("Retailstores_Cleaned.csv")
-
+df = pd.read_csv(os.path.join(BASE_DIR, "Retailstores_Cleaned.csv"))
 # -------------------------
 # CUSTOM CSS
 # -------------------------
